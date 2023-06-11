@@ -1,0 +1,416 @@
+body {
+  margin: 14px;
+}
+
+
+
+
+
+.header {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: start;
+  z-index: 5;
+  /*border: 1px solid #ccc;*/
+}
+
+
+.title_container{
+  position: fixed;
+  top:100px
+}
+
+.title{
+  width: 100vw;
+  z-index: 1;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  opacity: 1;
+
+}
+
+.my_img{
+  opacity: 0;
+  
+}
+
+.title_container:hover .my_img{
+  opacity: 1;
+  position: absolute;
+  right: 50px;
+  max-width: 40%;
+}
+
+
+
+  .가리개{
+  position:absolute;
+  top: 2000px;
+  width: 100%;
+  height: 18000px;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+}
+
+ #소개글{
+ cursor: help;
+ position: absolute;
+ text-align: center;
+ margin-top: 50px;
+ left:50%; 
+ -webkit-transform:translate(-40%, -60%); 
+     -ms-transform:translate(-40%, -60%); 
+         transform:translate(-40%, -60%);
+ font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+ top: 2000px;
+ z-index: 4;
+}
+
+#소개글.hover{
+  color:red;
+}
+
+
+#계속{
+  position: relative;
+  top: 2000px;
+  /* margin-top: 500px; */
+  left: 50%;
+  z-index: 4;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+
+.물통 img {
+  position:absolute;
+  top: 3500px;
+  left: 200px;
+  max-width: 20%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  /*border: 1px solid #ccc;*/
+  z-index: 2;
+}
+
+.초록 img {
+  position: absolute;
+  max-width: 20%;
+  top:50px;
+  left: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 6;
+}
+
+.의자 img{
+  position: absolute;
+  max-width: 10%;
+  top:200px;
+  right:500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  /*border: 1px solid #ccc;*/
+  z-index: 8;
+}
+
+.핑크 img{
+position: absolute;
+max-width: 50%;
+top:250px;
+right:700px;
+-o-object-fit: contain;
+   object-fit: contain;
+/*border: 1px solid #ccc;*/
+z-index: 8;
+}
+
+.레드 img{
+position: absolute;
+max-width: 20%;
+top:1000px;
+right:700px;
+-o-object-fit: contain;
+   object-fit: contain;
+/*border: 1px solid #ccc;*/
+z-index: 8;
+}
+
+
+
+.핫핑크 img{
+  position: absolute;
+  max-width: 20%;
+  top: 100px;
+  right:20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 7;
+}
+
+.yuck img{
+  position: absolute;
+  top: 3000px;
+  max-width: 30%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+
+.활활 img{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 4000px;
+  left:500px;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 10;
+  opacity: 1;
+
+}
+
+.햄버거 img{
+position: absolute;
+top: 16500px;
+left: 50%;
+-o-object-fit: contain;
+   object-fit: contain;
+z-index: 10;
+
+}
+
+.중간과제 img{
+position: absolute;
+top: 12000px;
+left: 400px;
+max-width: 50%;
+-o-object-fit: contain;
+   object-fit: contain;
+z-index: 10;
+
+}
+
+.지기징 img{
+position: absolute;
+top: 18000px;
+right:100px;
+max-width: 20%;
+-o-object-fit: contain;
+   object-fit: contain;
+z-index: 10;
+}
+
+
+
+.text{font-family: 'Noto Sans KR', sans-serif;
+font-weight: bold;
+
+}
+
+.아실기실에 {
+cursor: pointer;
+position: relative;
+text-align: center;
+top: 5000px;
+font-family: 'Noto Sans KR', sans-serif;
+font-weight: bold;
+font-size: 0px;
+opacity: 0;
+z-index: 10;
+}
+
+.item.active .아실기실에{
+-webkit-transition: font-size 2s ease-in;
+-o-transition: font-size 2s ease-in;
+transition: font-size 2s ease-in;
+opacity: 1;
+font-size: 100px;
+
+}
+
+.new{
+color: red;
+}
+
+.주차 {
+position: absolute;
+top: 7000px;
+left: 500px;
+text-align: center;
+font-size: 24px;
+z-index: 4;
+}
+
+.이중주차{
+position: absolute;
+top: 6900px;
+left: 0px;
+max-width: 100%;
+-o-object-fit: contain;
+   object-fit: contain;
+z-index: 10;
+
+}
+
+.데스코어{
+cursor: pointer;
+position: absolute;
+left:50%; 
+-webkit-transform:translate(-40%, -60%); 
+    -ms-transform:translate(-40%, -60%); 
+        transform:translate(-40%, -60%);
+top:8000px;
+font-size: 24px;
+z-index: 4;
+
+
+}
+
+.드륵{
+position: absolute;
+right:500px;
+color: red;
+font-family: 'Noto serif KR', serif;
+font-size: 80px;
+z-index: 4;
+-webkit-animation: vibration .1s infinite;
+        animation: vibration .1s infinite;
+
+}
+
+@-webkit-keyframes vibration {
+from {
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+to {
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
+}
+
+@keyframes vibration {
+from {
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+to {
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
+}
+
+.그래도{
+position: absolute;
+font-size: 24px;
+top: 9000px;
+left: 500px;
+z-index: 4;
+}
+
+.빨간머리{
+position: absolute;
+font-size: 24px;
+top: 14000px;
+left: 50%;
+z-index: 10;
+
+}
+
+.빨간머리:hover{
+color:red
+}
+
+
+.밴드티{
+cursor: pointer;
+position: absolute;
+font-size: 40px;
+top: 14880px;
+left: 40px;
+z-index: 10;
+}
+
+.가짜메탈 img{
+position: absolute;
+max-width: 20%;
+top: 14500px;
+left: 40px;
+z-index: 10;
+
+}
+
+
+.메탈헤드{
+position: absolute;
+font-size: 24px;
+top: 15000px;
+left: 40px;
+z-index: 10;
+
+}
+
+.거짓말{
+position: absolute;
+font-size: 18px;
+top: 16000px;
+left: 60px;
+z-index: 10;
+}
+
+.부자{
+position: absolute;
+font-size: 18px;
+top: 16900px;
+left: 300px;
+z-index: 10;
+}
+
+.브릿팝보단{
+position: absolute;
+font-size: 24px;
+top: 18500px;
+right: 500px;
+z-index: 10;
+}

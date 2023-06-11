@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./너하말.style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&display=swap" rel="stylesheet">
+  <style>
+    .rectangle {
+      width: 80px;
+      height: 80px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      top: 2030px;
+      right: 1000px;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    body {
+        font-family: 'Noto Serif KR', serif;
+      }
+
+      #content {
+        margin: -207.5em 0;
+      }
+
+      .moving-p {
+            position: relative;
+        }
+
+        #p1 {
+            left: 300px;
+        }
+
+        #p2 {
+            left: 600px;
+        }
+
+        #p3 {
+            left: 900px;
+        }
+
+        #P4 {
+            left: 1000PX;
+        }
+
+        #p5 {
+            left: 1500px;
+        }
+
+        #p6 {
+            left: 2500px;
+        }
+      
+    </style>
+
+  </style>
+  <script>
+    function goToNewPage() {
+      window.location.href = "너하말2.html";
+    }
+    function handleClick(event) {
+      var image = event.target;
+      if (image.classList.contains("transparent")) {
+        event.preventDefault();
+        return;
+      }
+      if (image.classList.contains("clicked")) {
+        return;
+      }
+      image.style.transform = getRandomTranslation();
+      image.classList.add("clicked");
+
+      var container = document.getElementById("image-container");
+      container.insertBefore(image, container.firstChild); // Move the image to the beginning of the container
+
+      setTimeout(function () {
+        image.classList.remove("clicked");
+      }, 500);
+    }
+    function getRandomTranslation() {
+      var randomX = Math.floor(Math.random() * 400) - 200 + "px";
+      var randomY = Math.floor(Math.random() * 400) - 200 + "px";
+      return "translate(" + randomX + ", " + randomY + ")";
+    }
+  </script>
+</head>
+<body>
+  <div class="rectangle" onclick="goToNewPage()"></div>
+
+  <div id="content">
+    <p id="p1" class="moving-p">그와의 관계에서 가장 힘든 건</p>
+    <p id="p2" class="moving-p">나는 그를 소중히 생각하고 있지만</p>
+    <p id="p3" class="moving-p">정작 그는 나에게 눈꼽만큼도 신경 써주지 않는다고 느껴질 때에요.</p> 
+    <p id="p4" class="moving-p">때로는 과감하게 잘라내세요.</p>
+    <p id="p5" class="moving-p">그의 인생 퍼즐에서 없으면 완성되지 않을</p>
+    <p id="p6" class="moving-p">그 한 조각이 될 각오가 필요해요.</p>
+    <small>너에게 하고 싶은 말, 김수민 작가</small>
+  </div>
+
+  <div id="image-container">
+    <img src="1.png" alt="Layered Image" class="image-layer">
+    <img src="2.png" alt="Layered Image" class="image-layer">
+    <img src="3.png" alt="Layered Image" class="image-layer">
+    <img src="4.png" alt="Layered Image" class="image-layer">
+    <img src="5.png" alt="Layered Image" class="image-layer">
+    <img src="6.png" alt="Layered Image" class="image-layer">
+    <img src="7.png" alt="Layered Image" class="image-layer">
+    <img src="8.png" alt="Layered Image" class="image-layer">
+    <img src="9.png" alt="Layered Image" class="image-layer">
+    <img src="10.png" alt="Layered Image" class="image-layer">
+    <img src="11.png" alt="Layered Image" class="image-layer">
+    <img src="12.png" alt="Layered Image" class="image-layer">
+    <img src="13.png" alt="Layered Image" class="image-layer">
+    <img src="14.png" alt="Layered Image" class="image-layer">
+    <img src="15.png" alt="Layered Image" class="image-layer">
+    <img src="16.png" alt="Layered Image" class="image-layer">
+    <img src="17.png" alt="Layered Image" class="image-layer">
+    <img src="18.png" alt="Layered Image" class="image-layer">
+    <img src="19.png" alt="Layered Image" class="image-layer">
+    <img src="20.png" alt="Layered Image" class="image-layer">
+    <img src="21.png" alt="Layered Image" class="image-layer">
+    <img src="22.png" alt="Layered Image" class="image-layer">
+    <img src="23.png" alt="Layered Image" class="image-layer">
+    <img src="24.png" alt="Layered Image" class="image-layer">
+    <img src="25.png" alt="Layered Image" class="image-layer">
+    <img src="26.png" alt="Layered Image" class="image-layer">
+    <img src="27.png" alt="Layered Image" class="image-layer">
+    <img src="28.png" alt="Layered Image" class="image-layer">
+    <img src="29.png" alt="Layered Image" class="image-layer">
+    <img src="30.png" alt="Layered Image" class="image-layer">
+    <img src="31.png" alt="Layered Image" class="image-layer">
+    <img src="32.png" alt="Layered Image" class="image-layer">
+    <img src="33.png" alt="Layered Image" class="image-layer">
+    <img src="35.png" alt="Layered Image" class="image-layer">
+    <img src="36.png" alt="Layered Image" class="image-layer">
+    <img src="37.png" alt="Layered Image" class="image-layer">
+    <img src="38.png" alt="Layered Image" class="image-layer">
+    <img src="39.png" alt="Layered Image" class="image-layer">
+    <img src="40.png" alt="Layered Image" class="image-layer">
+    <img src="41.png" alt="Layered Image" class="image-layer">
+    <img src="42.png" alt="Layered Image" class="image-layer">
+    <img src="43.png" alt="Layered Image" class="image-layer">
+    <img src="44.png" alt="Layered Image" class="image-layer">
+    <img src="45.png" alt="Layered Image" class="image-layer">
+    <img src="46.png" alt="Layered Image" class="image-layer">
+    <img src="34.png" alt="Layered Image" class="image-layer">
+    <!-- 다른 이미지들... -->
+  </div>
+
+  <style>
+    .image-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transition: transform 0.5s ease;
+      cursor: pointer;
+    }
+    .transparent {
+      pointer-events: none;
+    }
+  </style>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const images = document.querySelectorAll('.image-layer');
+      let activeImage = null;
+      let initialX = 0;
+      let initialY = 0;
+
+      images.forEach(image => {
+        image.addEventListener('mousedown', handleMouseDown);
+        image.addEventListener('mousemove', handleMouseMove);
+        image.addEventListener('mouseup', handleMouseUp);
+      });
+
+      function handleMouseDown(event) {
+        activeImage = event.target;
+        initialX = event.clientX - activeImage.offsetLeft;
+        initialY = event.clientY - activeImage.offsetTop;
+      }
+
+      function handleMouseMove(event) {
+        if (activeImage) {
+          event.preventDefault();
+          const newX = event.clientX - initialX;
+          const newY = event.clientY - initialY;
+          activeImage.style.left = `${newX}px`;
+          activeImage.style.top = `${newY}px`;
+        }
+      }
+
+      function handleMouseUp() {
+        activeImage = null;
+        initialX = 0;
+        initialY = 0;
+      }
+    });
+  </script>
+</body>
+</html>

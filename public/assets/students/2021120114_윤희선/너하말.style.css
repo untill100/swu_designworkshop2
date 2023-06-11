@@ -1,0 +1,30 @@
+.image-layer {
+    width: auto; /* 원하는 가로 크기로 조정합니다. */
+    height: 1000px;  /*원하는 세로 크기로 조정합니다. */
+  }
+  
+  #content {
+      position: absolute;
+      top: 3320px;
+      left: 250px;
+      -webkit-box-sizing: content-box;
+              box-sizing: content-box;
+      z-index: 1;
+      pointer-events: none;
+      /* line-height: 37; */
+  }
+  
+  p {
+      font-size: 80px;
+      color: rgb(255, 255, 255);
+      line-height: 3.6;
+  }
+  
+  small {
+      font-size: 40px;
+      color: rgb(207, 207, 207)
+  }
+  
+      /* #content p {
+        margin: -17.5em 0;
+      } */
