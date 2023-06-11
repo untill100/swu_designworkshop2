@@ -1,0 +1,12 @@
+* {
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: white;
+    margin: 20px 10px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.class1 {
+    margin-left: -1px;;
+}

@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 1;
+    /* overflow: hidden; */
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+}
+/* 처음으로 버튼 */
+#return {
+    width: 12vw;
+    height: 8vh;
+    background-color: black;
+    font-size: 3vh;
+
+    
+
+    margin-left: 0.5%;
+    margin-top: 1vh;
+
+    color: white;
+
+    z-index: 99999;
+
+}
+
+#return:active {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+}
+
+#return:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+/*helper*/
+o{
+    display: block;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: -9vh;
+    
+    font-size: 1.5vw;
+    color: rgb(180, 180, 180);
+    -webkit-animation: opacity 2s infinite;
+            animation: opacity 2s infinite;
+    
+}
+
+
+@-webkit-keyframes opacity {
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+    0% {opacity: 100%;}
+}
+
+
+@keyframes opacity {
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+    0% {opacity: 100%;}
+}
+
+#pp {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 1vh;
+    
+    font-weight: 200;
+    font-size: 4vw;
+   
+    z-index: 999;
+   
+
+}
+
+/* 엉덩이 이미지들 */
+#hip, #hip2, #hip3 {
+    position: relative;
+    display: inline-block;
+    
+    width: 40vh;
+    height: 40vh;
+
+    
+    background-size:40vh;
+    background-repeat: no-repeat;
+    
+    background-image: url('./hip1.jpeg');
+    background-position: center center;
+
+    margin-top: -4vh;
+   left: 2.5vw;
+
+z-index: 99;
+    
+    
+}
+
+#hip4, #hip5 {
+    position: relative;
+    display: inline-block;
+    
+    width: 40vh;
+    height: 40vh;
+
+    
+    background-size:40vh;
+    background-repeat: no-repeat;
+    
+    background-image: url('./hip1.jpeg');
+    background-position: center center;
+
+    margin-top: -13vh;
+    margin-left: 3%;
+}
+
+#hip:hover, #hip2:hover, #hip3:hover, #hip4:hover, #hip5:hover {
+    background-size:60vh;
+    background-image: url('./Hip.png');
+
+
+    -webkit-transform: scale(1.1);
+
+
+        -ms-transform: scale(1.1);
+
+
+            transform: scale(1.1);
+    z-index: 999
+}
+#hip:active, #hip2:active,#hip3:active, #hip4:active, #hip5:active {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);;
+}
+
+
+#hip {   
+   margin-left: 16%;
+}
+
+/**/
+
+#hip4 { 
+  
+    margin-left: 28%;
+}
+
+ 
+
+
+
+
+#caption1, #caption2, #caption3{
+   position: relative;
+    display: inline-block;
+    z-index: 5;
+    
+    width:180px;
+    height: 60px;
+    background-color: black;
+    border-radius: 100%;
+
+    text-align: center;
+    padding-top: 20px;
+
+    color: white;
+    font-size: 22px;
+
+    margin-left: 10%;
+    top: -5vh;
+    
+    z-index: 99;
+    
+
+}
+
+#caption4, #caption5{
+    position: relative;
+     display: inline-block;
+     z-index: 9;
+     
+     width:180px;
+     height: 60px;
+     background-color: black;
+     border-radius: 100%;
+ 
+     text-align: center;
+     padding-top: 21px;
+ 
+     color: white;
+     font-size: 22px;
+
+     margin-left: 13vw;
+     top: -6vh;
+    
+ }
+
+#caption1 {
+    margin-left: 25vw;
+  
+   
+   
+}
+
+#caption4 {
+    margin-left: 34%;
+   
+   
+  
+}
+
+
+ /**/
+
+
+
+
+#warning {
+   position: relative;
+    width: 8vh;
+    height: 8vh;
+    background-color: rgb(180, 180, 180);
+    border-radius: 100%;
+
+    text-align: center;
+    padding-top: 1.5vh;
+    color: white;
+    font-size: 4vh;
+
+    top: -8vh;
+    margin-left: 94.5%;
+
+    
+}
+
+#warning:active {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+    
+    
+}
+
+
+
+/*경고창*/
+#content {
+   display: none;
+
+  
+}
+
+#content.active {
+    display: inline-block;
+    position: relative;
+    z-index: 909;
+    width: 750px;
+    height: 250px;
+    background-color: rgba(255, 0, 0, 0.9);
+    text-align: center;
+    padding-top: 78px;
+    font-size: 18px;
+     
+   /* opacity: 0.5; */
+    left: 26vw;
+    top: -55vh;
+
+    -webkit-box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.9);
+
+            box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.9);
+    -webkit-animation: dissapear 8s;
+            animation: dissapear 8s;
+
+    opacity: 0%;
+
+    z-index: 99999;
+
+}
+
+
+p{
+
+    color: white;
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+@-webkit-keyframes dissapear {
+    0% { opacity: 100%;}
+    50% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+@keyframes dissapear {
+    0% { opacity: 100%;}
+    50% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+

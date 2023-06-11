@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    word-break: keep-all;
+    line-height: 1;
+    /* overflow: hidden; */
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+/*이전버튼*/
+#return {
+    width: 12vw;
+    height: 8vh;
+    background-color: black;
+    font-size: 3vh;
+
+    margin-left: 0.5%;
+    margin-top: 1vh;
+
+    color: white;
+
+    z-index: 99999;
+
+}
+
+#return:active {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+}
+
+#return:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+/*물음표버튼*/
+#warning {
+
+  opacity: 0;
+    /* position: relative;
+    width: 8vh;
+    height: 8vh;
+    background-color: rgb(180, 180, 180);
+    border-radius: 100%;
+
+    text-align: center;
+    padding-top: 2vh;
+    color: white;
+    font-size: 4vh;
+
+    top: -16vh;
+    margin-left: 94.5%;
+
+    z-index: 999; */
+}
+
+/* 사람 */
+
+#man {
+    position: relative;
+    width: 41vw;
+    height: 41vw;
+   
+    
+    margin-left: 50%;
+    margin-top: 5vh;
+    
+    
+
+    background-size: 41vw;
+    background-image: url('./man.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    /* background-color: red; */
+    -webkit-transition: -webkit-transform 1.0s ease-out;
+    transition: -webkit-transform 1.0s ease-out;
+    -o-transition: transform 1.0s ease-out;
+    transition: transform 1.0s ease-out;
+    transition: transform 1.0s ease-out, -webkit-transform 1.0s ease-out;
+
+    z-index: 999;
+}
+
+#man.active{
+    -webkit-transform: translateX(-28vh);
+        -ms-transform: translateX(-28vh);
+            transform: translateX(-28vh);
+    -webkit-animation: fart 2s;
+            animation: fart 2s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+   
+}
+@-webkit-keyframes fart {
+    0% {scale: 1;}
+    90% {scale: 0.8;}
+    100% {scale: 1;}
+}
+@keyframes fart {
+    0% {scale: 1;}
+    90% {scale: 0.8;}
+    100% {scale: 1;}
+}
+
+
+/* 먹이 */
+#feed {
+    position: absolute;
+    display: block;
+    z-index: 9;
+
+    width: 20vw;
+    height: 24vh;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8vh;
+    background-color: black;
+    font-size: 8vh;
+    font-weight: 400;
+
+    left: 20vw;
+    top: 22vh;
+    color: white;
+
+    -webkit-transition: -webkit-transform 5.0s ease-out;
+
+    transition: -webkit-transform 5.0s ease-out;
+
+    -o-transition: transform 5.0s ease-out;
+
+    transition: transform 5.0s ease-out;
+
+    transition: transform 5.0s ease-out, -webkit-transform 5.0s ease-out;
+    z-index: 9999;
+}
+
+#feed.active {
+   opacity: 0%;
+   -webkit-animation: opacity2 0.3s;
+           animation: opacity2 0.3s;
+}
+
+#helper {
+    position: relative;
+    text-align: center;
+
+    font-weight: 200;
+    left: -20vw;
+    top: 3vh;
+   font-size: 4vh;
+
+   -webkit-animation: opacity 2s infinite;
+
+           animation: opacity 2s infinite;
+   
+}
+
+
+#helper.active {
+   opacity: 0%;
+   -webkit-animation: none;
+           animation: none;
+}
+@-webkit-keyframes opacity {
+    0% { opacity: 100%;}
+    50% { opacity: 0%;}
+    100% { opacity: 100%;}   
+}
+@keyframes opacity {
+    0% { opacity: 100%;}
+    50% { opacity: 0%;}
+    100% { opacity: 100%;}   
+}
+
+@-webkit-keyframes opacity2 {
+    0% { opacity: 100%;}
+    100% { opacity: 0%;}   
+}
+
+@keyframes opacity2 {
+    0% { opacity: 100%;}
+    100% { opacity: 0%;}   
+}
+
+
+
+/* 냄새들 */
+#smell {
+    display: none;
+}
+
+#smell.active{
+    display: inline-block;
+    opacity: 0;
+}
+
+#smell p:nth-child(1) {
+    color: red;
+}
+
+/* 뒷배경 */
+
+
+#final {
+  display: none;
+}
+
+#final.active {
+    display: inline-block;
+    position: relative;
+    font-size: 35vh;
+    top: -95vh;
+
+    color:  rgb(45, 185, 20);
+    
+    font-weight: 600;
+ 
+    text-align: center;
+    z-index: 9;
+
+    -webkit-animation: opacity3 2s ;
+
+            animation: opacity3 2s ;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+
+    opacity: 0;
+
+   
+}
+
+#hippage1 {
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+
+    
+}
+
+#hippage1.active {
+
+   
+ 
+    /* animation: opacity3 2s ;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+     */
+   
+    -webkit-animation: transition  3s;
+   
+            animation: transition  3s;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+
+}
+
+
+
+@-webkit-keyframes opacity3 {
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}   
+}
+
+
+
+@keyframes opacity3 {
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}   
+}
+
+@-webkit-keyframes transition {
+    0% { background-color: white;}
+    100% { background-color: rgb(214, 248, 40);}   
+}
+
+@keyframes transition {
+    0% { background-color: white;}
+    100% { background-color: rgb(214, 248, 40);}   
+}
+
+
+
+

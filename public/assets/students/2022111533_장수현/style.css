@@ -1,0 +1,185 @@
+* {
+    -webkit-text-decoration-color: none;
+            text-decoration-color: none;
+    -webkit-text-emphasis: none;
+            text-emphasis: none;
+    text-decoration: none;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    margin: 20px 10px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+}
+
+.class1 {
+    cursor: s-resize;
+}
+.class2 {
+    cursor: pointer;
+}
+
+.class12-13 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* 3 210 4 85 */
+.class12 {
+    display: none;
+    cursor:e-resize;
+    letter-spacing: 2px;
+}
+
+.class3 {
+    cursor: pointer;
+}
+
+.class4 {
+    cursor: pointer;
+}
+
+.class13 {
+    display: none;
+    color: red;
+    letter-spacing: 2px;
+}
+
+.class14 {
+    cursor: pointer;
+    display: none;
+    letter-spacing: 2px;
+}
+
+/* 4633 862 */
+.class141 {
+    display: none;
+    letter-spacing: 2px;
+    margin-left: 230px;
+    font-weight: bold;
+}
+
+.class15 {
+    display: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+/* 174 3627 */
+.class151 {
+    display: none;
+    margin-left: 180px;
+    cursor: s-resize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+.item {
+    text-decoration: none;
+    margin-top: -40px;
+    margin-left: 140px;;
+    color: red;
+    display: none;
+}
+
+.item1 {
+    text-decoration: none;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation: move 1s infinite alternate, fadeIn 1s infinite alternate;
+            animation: move 1s infinite alternate, fadeIn 1s infinite alternate;
+}
+
+.item2 {
+    text-decoration: none;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation: move 2s infinite alternate, fadeIn 2s infinite alternate;
+            animation: move 2s infinite alternate, fadeIn 2s infinite alternate;
+}
+
+.item3 {
+    text-decoration: none;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation: move 3s infinite alternate, fadeIn 3s infinite alternate;
+            animation: move 3s infinite alternate, fadeIn 3s infinite alternate;
+}
+
+.item4 {
+    text-decoration: none;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+    -webkit-animation: move 4s infinite alternate, fadeIn 4s infinite alternate;
+            animation: move 4s infinite alternate, fadeIn 4s infinite alternate;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0; 
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.class5 {
+    cursor: pointer;
+}
+
+.class9 {
+    cursor: pointer;
+}
+
+#content {
+    color: red;
+}
+
+#main {
+    display: none;
+}
+
+#text {
+    display: none;
+    cursor: e-resize;
+}
+
+#app {
+    color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+#app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* #class5Element {
+    display: flex;
+  } */
+  
+  /* #class5Element > p {
+    margin-right: 10px;
+  } */

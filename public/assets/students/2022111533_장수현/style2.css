@@ -1,0 +1,51 @@
+* {
+    -webkit-text-emphasis: none;
+            text-emphasis: none;
+    text-decoration: none;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    margin: 20px 10px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#text {
+    display: none;
+    cursor: e-resize;
+}
+
+#app {
+    font-weight: bold;
+    color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.class7 {
+    cursor: pointer;
+}
+
+.class8 {
+    margin-left:20px
+}
+
+.class71 {
+    display: none;
+    color: red;
+}
+
+.class9 {
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    margin-right: -2px;
+}
+
+#text {
+    font-weight: bold;
+    color: red;
+}

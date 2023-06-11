@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 1;
+    word-break: break-all;
+}
+
+#background {
+    display: block;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#pg3 {
+    visibility: visible;
+    z-index: 9999;
+}
+
+/* #pg3.witchCatch {
+    display:flex;
+    animation: myAnimation 2s linear forwards;
+} */
+
+.final {
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 180px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 57px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#book {
+    position: fixed;
+    width: 470px;
+    height: 470px;
+    top: 63%;
+    left: calc(50% );
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+#home {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 100%;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.name {
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 47%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 53px;
+    padding: 0;
+}
+
+.smallName {
+    text-align: right;
+    position: absolute;
+    color: white;
+    top: 53%;
+    left: 62%;
+    -webkit-transform: translate(-100%, -50%);
+        -ms-transform: translate(-100%, -50%);
+            transform: translate(-100%, -50%);
+    font-size: 20px;
+}
+
+.writer {
+    text-align: center;
+    position: absolute;
+    color: black;
+    top: 91%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.name:hover, .smallName:hover {
+    color: black;
+}
+
+.writer:hover {
+    color: white;
+}
+
+#home:hover {
+    background-color: rgb(195, 0, 255);
+}
