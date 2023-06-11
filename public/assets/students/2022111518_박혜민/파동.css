@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 1;
+    -ms-overflow-style: none;
+    font-family:  'Nanum Myeongjo', serif;
+}
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+a{ text-decoration: none;
+    color: rgb(0, 0, 0);}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#t1 {
+    letter-spacing: 18px;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+
+#t2 {
+    letter-spacing: 10px;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+
+#t3 {
+    letter-spacing: 1px;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+
+*{
+    overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+#text-curve{
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+.svg {
+    background: none;
+}
+
+text {
+    fill: rgb(0, 0, 0);
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 40px;      
+}

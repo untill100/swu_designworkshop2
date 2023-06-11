@@ -1,0 +1,784 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 1;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#playBtn1 {
+    font-family: 'ChosunGs';
+    font-size: 9pt;
+    font-weight: normal;
+    position: absolute;
+    top:30px;
+    left:40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color:#ffff;
+    background-color: #000000;
+    border-radius: 30px;
+    border: none;
+    width:60px;
+    height: 20px;
+    padding: 0;
+}
+#playBtn2 {
+    font-family: 'ChosunGs';
+    font-size: 9pt;
+    font-weight: normal;
+    position: absolute;
+    top:30px;
+    left:120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color:#ffff;
+    background-color: #000000;
+    border-radius: 30px;
+    border: none;
+    width:60px;
+    height: 20px;
+    padding: 0;
+}
+#playBtn3 {
+    font-family: 'ChosunGs';
+    font-size: 9pt;
+    font-weight: normal;
+    position: absolute;
+    top:30px;
+    left:200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color:#ffff;
+    background-color: #000000;
+    border-radius: 30px;
+    border: none;
+    width:60px;
+    height: 20px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+
+#text {
+    font-size: 120pt;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+
+#text-1-1 {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color:#000000;
+}
+
+#text-1-2{
+    position: absolute;
+    top: 300px;
+    left: 530px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#text-1-3{
+    position: absolute;
+    top: 500px;
+    left: 830px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#text-1-4{
+    position: absolute;
+    top: 700px;
+    left: 1130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+/*btn*/
+
+#btn1 {
+    font-size: 8pt;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #000000; 
+    background-color: #ffff;
+    border-radius: 30px;
+    width:30px;
+    height: 20px;
+}
+
+#btn2 {
+    font-size: 8pt;
+    position: absolute;
+    top: 500px;
+    left: 750px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #000000; 
+    background-color: #ffff;
+    border-radius: 30px;
+    width:30px;
+    height: 20px;
+    
+}
+
+#btn3 {
+    font-size: 8pt;
+    position: absolute;
+    top: 700px;
+    left: 1040px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;;
+    color: #000000; 
+    background-color: #ffff;
+    border-radius: 30px;
+    width:30px;
+    height: 20px;
+}
+
+#btn4 {
+    font-size: 8pt;
+    position: absolute;
+    top: 700px;
+    left: 1300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #000000; 
+    background-color: #ffff;
+    border-radius: 30px;
+    width:30px;
+    height: 20px;
+}
+
+#btn5{
+    font-size: 8pt;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #000000; 
+    background-color: #ffff;
+    border-radius: 30px;
+    width:30px;
+    height: 20px;
+}
+
+#btn6 {
+    font-size: 8pt;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #000000; 
+    background-color: #ffff;
+    border-radius: 30px;
+    width:30px;
+    height: 20px;
+}
+
+/*text2*/
+#text2 {
+    font-size: 14pt;
+    font-weight: normal;
+    font-family: 'ChosunGs';
+}
+
+#text2-1 {
+    color: #000000; 
+    position: absolute;
+    top: 320px;
+    left: 490px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#text2-2 {
+    position: absolute;
+    top: 520px;
+    left: 790px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#text2-3 {
+    position: absolute;
+    top: 720px;
+    left: 1070px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#text2-4 {
+    position: absolute;
+    top: 720px;
+    left: 1270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#text2-5 {
+    position: absolute;
+    top: 520px;
+    left: 970px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#text2-6 {
+    position: absolute;
+    top: 320px;
+    left:670px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#text3 {
+    font-size: 15pt;
+    font-family: 'ChosunGs';
+}
+
+/*text3*/
+#btn7 {
+    font-size: 10pt;
+    font-family: 'ChosunGs';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #000000; 
+    border: none;
+    background-color: #ffff;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+@-webkit-keyframes Jump{
+    0%{top:880; opacity:0;}
+    50%{top:830px;}
+    70%{top:830px;}
+    100%{top:880px;opacity:1;}
+}
+
+@keyframes Jump{
+    0%{top:880; opacity:0;}
+    50%{top:830px;}
+    70%{top:830px;}
+    100%{top:880px;opacity:1;}
+}
+
+.t3-1-1 {
+    position: absolute;
+    top: 880px;
+    left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 1s ease-in-out infinite;
+            animation: Jump 1s ease-in-out infinite;
+}
+
+.t3-1-2 {
+    position: absolute;
+    top: 880px;
+    left: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 1.2s ease-in-out infinite;
+            animation: Jump 1.2s ease-in-out infinite;
+}
+
+.t3-1-3 {
+    position: absolute;
+    top: 880px;
+    left: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 1.4s ease-in-out infinite;
+            animation: Jump 1.4s ease-in-out infinite;
+}
+
+.t3-1-4 {
+    position: absolute;
+    top: 880px;
+    left: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 1.6s ease-in-out infinite;
+            animation: Jump 1.6s ease-in-out infinite;
+}
+
+.t3-1-5 {
+    position: absolute;
+    top: 880px;
+    left: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 1.8s ease-in-out infinite;
+            animation: Jump 1.8s ease-in-out infinite;
+}
+
+@-webkit-keyframes Jump2{
+    0%{top:810px; opacity:0;}
+    50%{top:740px;}
+    70%{top:740px;}
+    100%{top:810px;opacity:1;}
+}
+
+@keyframes Jump2{
+    0%{top:810px; opacity:0;}
+    50%{top:740px;}
+    70%{top:740px;}
+    100%{top:810px;opacity:1;}
+}
+
+.t3-2-1 {
+    position: absolute;
+    top: 820px;
+    left: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump2 2s ease-in-out infinite;
+            animation: Jump2 2s ease-in-out infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.t3-2-2 {
+    position: absolute;
+    top: 810px;
+    left: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump2 2.2s ease-in-out infinite;
+            animation: Jump2 2.2s ease-in-out infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.t3-2-3 {
+    position: absolute;
+    top: 810px;
+    left: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump2 2.4s ease-in-out infinite;
+            animation: Jump2 2.4s ease-in-out infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.t3-2-4 {
+    position: absolute;
+    top: 810px;
+    left: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump2 2.6s ease-in-out infinite;
+            animation: Jump2 2.6s ease-in-out infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.t3-2-5 {
+    position: absolute;
+    top: 810px;
+    left: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump2 2.8s ease-in-out infinite;
+            animation: Jump2 2.8s ease-in-out infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+
+@-webkit-keyframes Jump3{
+    0%{top:710; opacity:0;}
+    50%{top:640px;}
+    70%{top:640px;}
+    100%{top:710px;opacity:1;}
+}
+
+@keyframes Jump3{
+    0%{top:710; opacity:0;}
+    50%{top:640px;}
+    70%{top:640px;}
+    100%{top:710px;opacity:1;}
+}
+
+.t3-3-1 {
+    position: absolute;
+    top: 710px;
+    left: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump3 3s ease-in-out infinite;
+            animation: Jump3 3s ease-in-out infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+
+.t3-3-2 {
+    position: absolute;
+    top: 710px;
+    left: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump3 3.2s ease-in-out infinite;
+            animation: Jump3 3.2s ease-in-out infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.t3-3-3 {
+    position: absolute;
+    top: 710px;
+    left: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump3 3.4s ease-in-out infinite;
+            animation: Jump3 3.4s ease-in-out infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.t3-3-4 {
+    position: absolute;
+    top: 710px;
+    left: 340px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump3 3.6s ease-in-out infinite;
+            animation: Jump3 3.6s ease-in-out infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.t3-3-5 {
+    position: absolute;
+    top: 710px;
+    left: 360px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump3 3.8s ease-in-out infinite;
+            animation: Jump3 3.8s ease-in-out infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+
+/*footer*/
+#footer {
+    font-size: 8pt;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+.footer1 {
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.footer2 {
+    position: absolute;
+    top: 800px;
+    right: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+a{ text-decoration: none;
+color: black;}
+
+
+#a1 {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:40px;
+    right:80px;
+    width: 20%;
+    height: 20%;
+    z-index:auto;
+}
+
+body{
+    background-image: url('./제비2.svg');
+    background-repeat: no-repeat;
+    background-position: 40px 600px;
+    background-size: 70px;
+}

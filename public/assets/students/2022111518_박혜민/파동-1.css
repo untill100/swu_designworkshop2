@@ -1,0 +1,3793 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'ChosunGs';
+}
+
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.btn .line{
+position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    display: block;
+    }
+      
+.btn:hover{
+    cursor: pointer;
+}
+    
+.line:nth-child(1) {
+        position: absolute;
+        top:73px;
+        left:1600px;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+.line:nth-child(2) {
+        position: absolute;
+        top:60px;
+        left:1600px;
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+    }
+.line:nth-child(3) {
+        width: 30px;
+        height:2px;
+        position: absolute;
+        top:66.5px;
+        left:1604px;
+    }
+
+/**/
+@-webkit-keyframes stroke {
+    0%   {
+        stroke:#000000;
+        stroke-width: 1px;
+        stroke-dashoffset: 326px;
+    }
+    70% {
+        fill: transparent;
+    }
+    90% {
+        stroke:#000000;
+        stroke-width: 1px;
+    }
+    100% {
+        fill: #000000;
+        stroke-dashoffset: 0px;
+    }
+}
+@keyframes stroke {
+    0%   {
+        stroke:#000000;
+        stroke-width: 1px;
+        stroke-dashoffset: 326px;
+    }
+    70% {
+        fill: transparent;
+    }
+    90% {
+        stroke:#000000;
+        stroke-width: 1px;
+    }
+    100% {
+        fill: #000000;
+        stroke-dashoffset: 0px;
+    }
+}
+
+/*모스부호*/
+#text1 {
+    font-family: 'ChosunGs';
+    font-size: 30pt;
+}
+
+#text1-1{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+#text1-2{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+}
+#text1-3{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+}
+#text1-4{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+}
+#text1-5{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+}
+#text1-6{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+#text1-7{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+}
+#text1-8{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s;
+}
+#text1-9{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay:0.6s;
+            animation-delay:0.6s;
+}
+#text1-10{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+}
+#text1-11{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+}
+#text1-12{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.0s;
+            animation-delay: 1.0s;
+}
+#text1-13{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.1s;
+            animation-delay: 1.1s;
+}
+#text1-14{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+}
+#text1-15{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.3s;
+            animation-delay: 1.3s;
+}
+#text1-16{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.4s;
+            animation-delay: 1.4s;
+}
+#text1-17{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+#text1-18{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.6s;
+            animation-delay: 1.6s;
+}
+#text1-19{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.7s;
+            animation-delay: 1.7s;
+}
+#text1-20{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.7s;
+            animation-delay: 5.7s;
+}
+#text1-21{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.8s;
+            animation-delay: 1.8s;
+}
+#text1-22{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.9s;
+            animation-delay: 1.9s;
+}
+#text1-23{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.0s;
+            animation-delay: 2.0s;
+}
+#text1-24{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.1s;
+            animation-delay: 2.1s;
+}
+#text1-25{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+}
+#text1-26{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.3s;
+            animation-delay: 2.3s;
+}
+#text1-27{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.4s;
+            animation-delay: 2.4s;
+}
+#text1-28{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+#text1-29{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.6s;
+            animation-delay: 2.6s;
+}
+#text1-30{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.7s;
+            animation-delay: 2.7s;
+}
+#text1-31{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.8s;
+            animation-delay: 2.8s;
+}
+#text1-32{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.9s;
+            animation-delay: 2.9s;
+}
+#text1-33{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.0s;
+            animation-delay: 3.0s;
+}
+#text1-34{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.1s;
+            animation-delay: 3.1s;
+}
+#text1-35{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.2s;
+            animation-delay: 3.2s;
+}
+#text1-36{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.3s;
+            animation-delay: 3.3s;
+}
+#text1-37{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.4s;
+            animation-delay: 3.4s;
+}
+#text1-38{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+}
+#text1-39{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.6s;
+            animation-delay: 3.6s;
+}
+#text1-40{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.7s;
+            animation-delay: 3.7s;
+}
+#text1-41{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.8s;
+            animation-delay: 3.8s;
+}
+#text1-42{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.9s;
+            animation-delay: 3.9s;
+}
+#text1-43{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.0s;
+            animation-delay: 4.0s;
+}
+#text1-44{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.1s;
+            animation-delay: 4.1s;
+}
+#text1-45{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.2s;
+            animation-delay: 4.2s;
+}
+#text1-46{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.3s;
+            animation-delay: 4.3s;
+}
+#text1-47{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.4s;
+            animation-delay: 4.4s;
+}
+#text1-48{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+}
+#text1-49{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.6s;
+            animation-delay: 4.6s;
+}
+#text1-50{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.7s;
+            animation-delay: 4.7s;
+}
+#text1-51{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.8s;
+            animation-delay: 4.8s;
+}
+#text1-52{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.9s;
+            animation-delay: 4.9s;
+}
+#text1-53{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+
+#text1-54{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.1s;
+            animation-delay: 5.1s;
+}
+#text1-55{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.2s;
+            animation-delay: 5.2s;
+}
+#text1-56{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.3s;
+            animation-delay: 5.3s;
+}
+#text1-57{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.4s;
+            animation-delay: 5.4s;
+}
+#text1-58{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.5s;
+            animation-delay: 5.5s;
+}
+#text1-59{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.6s;
+            animation-delay: 5.6s;
+}
+#text1-60{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.7s;
+            animation-delay: 5.7s;
+}
+#text1-61{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.8s;
+            animation-delay: 5.8s;
+}
+#text1-62{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.9s;
+            animation-delay: 5.9s;
+}
+#text1-63{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.0s;
+            animation-delay: 6.0s;
+}
+#text1-64{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.1s;
+            animation-delay: 6.1s;
+}
+#text1-65{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.2s;
+            animation-delay: 6.2s;
+}
+#text1-66{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.3s;
+            animation-delay: 6.3s;
+}
+#text1-67{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.4s;
+            animation-delay: 6.4s;
+}
+#text1-68{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.5s;
+            animation-delay: 6.5s;
+}
+#text1-69{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.6s;
+            animation-delay: 6.6s;
+}
+#text1-70{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.7s;
+            animation-delay: 6.7s;
+}
+#text1-71{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.8s;
+            animation-delay: 6.8s;
+}
+#text1-72{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.9s;
+            animation-delay: 6.9s;
+}
+#text1-73{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7s;
+            animation-delay: 7s;
+}
+
+#text1-74{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.1s;
+            animation-delay: 7.1s;
+}
+#text1-75{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.2s;
+            animation-delay: 7.2s;
+}
+#text1-76{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.3s;
+            animation-delay: 7.3s;
+}
+#text1-77{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.4s;
+            animation-delay: 7.4s;
+}
+#text1-78{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.5s;
+            animation-delay: 7.5s;
+}
+#text1-79{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.6s;
+            animation-delay: 7.6s;
+}
+
+#text1-80{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.7s;
+            animation-delay: 7.7s;
+}
+#text1-81{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.8s;
+            animation-delay: 7.8s;
+}
+#text1-82{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.9s;
+            animation-delay: 7.9s;
+}
+#text1-83{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.0s;
+            animation-delay: 8.0s;
+}
+#text1-84{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.1s;
+            animation-delay: 8.1s;
+}
+#text1-85{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.2s;
+            animation-delay: 8.2s;
+}
+#text1-86{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.3s;
+            animation-delay: 8.3s;
+}
+#text1-87{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.4s;
+            animation-delay: 8.4s;
+}
+#text1-88{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.5s;
+            animation-delay: 8.5s;
+}
+#text1-89{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.6s;
+            animation-delay: 8.6s;
+}
+#text1-90{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.7s;
+            animation-delay: 8.7s;
+}
+#text1-91{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.8s;
+            animation-delay: 8.8s;
+}
+#text1-92{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.9s;
+            animation-delay: 8.9s;
+}
+#text1-93{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.0s;
+            animation-delay: 9.0s;
+}
+#text1-94{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.1s;
+            animation-delay: 9.1s;
+}
+#text1-95{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.2s;
+            animation-delay: 9.2s;
+}
+#text1-96{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.3s;
+            animation-delay: 9.3s;
+}
+#text1-97{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.4s;
+            animation-delay: 9.4s;
+}
+#text1-98{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.5s;
+            animation-delay: 9.5s;
+}
+#text1-99{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.6s;
+            animation-delay: 9.6s;
+}
+#text1-100{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.7s;
+            animation-delay: 9.7s;
+}
+#text1-101{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.8s;
+            animation-delay: 9.8s;
+}
+#text1-102{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.9s;
+            animation-delay: 9.9s;
+}
+#text1-103{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+#text1-104{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.1s;
+            animation-delay: 10.1s;
+}
+#text1-105{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.2s;
+            animation-delay: 10.2s;
+}
+#text1-106{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.3s;
+            animation-delay: 10.3s;
+}
+#text1-107{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.4s;
+            animation-delay: 10.4s;
+}
+#text1-108{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.5s;
+            animation-delay: 10.5s;
+}
+#text1-109{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.6s;
+            animation-delay: 10.6s;
+}
+#text1-110{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.7s;
+            animation-delay: 10.7s;
+}
+#text1-111{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.8s;
+            animation-delay: 10.8s;
+}
+#text1-112{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.9s;
+            animation-delay: 10.9s;
+}
+#text1-113{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.0s;
+            animation-delay: 11.0s;
+}
+
+#text1-114{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.1s;
+            animation-delay: 11.1s;
+}
+#text1-115{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.2s;
+            animation-delay: 11.2s;
+}
+#text1-116{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.3s;
+            animation-delay: 11.3s;
+}
+#text1-117{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.4s;
+            animation-delay: 11.4s;
+}
+#text1-118{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.5s;
+            animation-delay: 11.5s;
+}
+#text1-119{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.6s;
+            animation-delay: 11.6s;
+}
+#text1-120{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.7s;
+            animation-delay: 11.7s;
+}
+#text1-121{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.8s;
+            animation-delay: 11.8s;
+}
+#text1-122{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.9s;
+            animation-delay: 11.9s;
+}
+#text1-123{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+}
+#text1-124{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.1s;
+            animation-delay: 12.1s;
+}
+#text1-125{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.2s;
+            animation-delay: 12.2s;
+}
+#text1-126{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.3s;
+            animation-delay: 12.3s;
+}
+#text1-127{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.4s;
+            animation-delay: 12.4s;
+}
+#text1-128{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.5s;
+            animation-delay: 12.5s;
+}
+#text1-129{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.6s;
+            animation-delay: 12.6s;
+}
+#text1-130{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.7s;
+            animation-delay: 12.7s;
+}
+#text1-131{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.8s;
+            animation-delay: 12.8s;
+}
+#text1-132{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.9s;
+            animation-delay: 12.9s;
+}
+#text1-133{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13s;
+            animation-delay: 13s;
+}
+#text1-134{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.1s;
+            animation-delay: 13.1s;
+}
+#text1-135{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.2s;
+            animation-delay: 13.2s;
+}
+#text1-136{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.3s;
+            animation-delay: 13.3s;
+}
+#text1-137{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.4s;
+            animation-delay: 13.4s;
+}
+#text1-138{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.5s;
+            animation-delay: 13.5s;
+}
+#text1-139{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.6s;
+            animation-delay: 13.6s;
+}
+#text1-140{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.7s;
+            animation-delay: 13.7s;
+}
+#text1-141{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.8s;
+            animation-delay: 13.8s;
+}
+#text1-142{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.9s;
+            animation-delay: 13.9s;
+}
+#text1-143{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14s;
+            animation-delay: 14s;
+}
+#text1-144{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.1s;
+            animation-delay: 14.1s;
+}
+#text1-145{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.2s;
+            animation-delay: 14.2s;
+}
+#text1-146{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.3s;
+            animation-delay: 14.3s;
+}
+#text1-147{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.4s;
+            animation-delay: 14.4s;
+}
+#text1-148{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.5s;
+            animation-delay: 14.5s;
+}
+#text1-149{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.6s;
+            animation-delay: 14.6s;
+}
+#text1-150{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.7s;
+            animation-delay: 14.7s;
+}
+#text1-151{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.8s;
+            animation-delay: 14.8s;
+}
+#text1-152{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.9s;
+            animation-delay: 14.9s;
+}
+#text1-153{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.0s;
+            animation-delay: 15.0s;
+}
+#text1-154{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.1s;
+            animation-delay: 15.1s;
+}
+#text1-155{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.2s;
+            animation-delay: 15.2s;
+}
+#text1-156{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.3s;
+            animation-delay: 15.3s;
+}
+#text1-157{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.4s;
+            animation-delay: 15.4s;
+}
+#text1-158{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.5s;
+            animation-delay: 15.5s;
+}
+#text1-159{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.6s;
+            animation-delay: 15.6s;
+}
+#text1-160{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.7s;
+            animation-delay: 15.7s;
+}
+#text1-161{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.8s;
+            animation-delay: 15.8s;
+}
+#text1-162{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.9s;
+            animation-delay: 15.9s;
+}
+#text1-163{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.0s;
+            animation-delay: 16.0s;
+}
+#text1-164{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.1s;
+            animation-delay: 16.1s;
+}
+#text1-165{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.2s;
+            animation-delay: 16.2s;
+}
+#text1-166{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.3s;
+            animation-delay: 16.3s;
+}
+#text1-167{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.4s;
+            animation-delay: 16.4s;
+}
+#text1-168{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.5s;
+            animation-delay: 16.5s;
+}
+#text1-169{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.6s;
+            animation-delay: 16.6s;
+}
+#text1-170{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.7s;
+            animation-delay: 16.7s;
+}
+#text1-171{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.8s;
+            animation-delay: 16.8s;
+}
+#text1-172{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.9s;
+            animation-delay: 16.9s;
+}
+#text1-173{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.0s;
+            animation-delay: 17.0s;
+}
+
+#text1-174{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.1s;
+            animation-delay: 17.1s;
+}
+#text1-175{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.2s;
+            animation-delay: 17.2s;
+}
+#text1-176{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.3s;
+            animation-delay: 17.3s;
+}
+#text1-177{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.4s;
+            animation-delay: 17.4s;
+}
+#text1-178{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.5s;
+            animation-delay: 17.5s;
+}
+#text1-179{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.6s;
+            animation-delay: 17.6s;
+}
+#text1-180{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.7s;
+            animation-delay: 17.7s;
+}
+#text1-181{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18s;
+            animation-delay: 18s;
+}
+#text1-182{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.1s;
+            animation-delay: 18.1s;
+}
+#text1-183{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.2s;
+            animation-delay: 18.2s;
+}
+#text1-184{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.3s;
+            animation-delay: 18.3s;
+}
+#text1-185{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.4s;
+            animation-delay: 18.4s;
+}
+#text1-186{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.5s;
+            animation-delay: 18.5s;
+}
+#text1-187{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.6s;
+            animation-delay: 18.6s;
+}
+#text1-188{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.7s;
+            animation-delay: 18.7s;
+}
+#text1-189{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.8s;
+            animation-delay: 18.8s;
+}
+#text1-190{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.9s;
+            animation-delay: 18.9s;
+}
+#text1-191{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.0s;
+            animation-delay: 19.0s;
+}
+#text1-192{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.1s;
+            animation-delay: 19.1s;
+}
+#text1-193{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.2s;
+            animation-delay: 19.2s;
+}
+#text1-194{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.3s;
+            animation-delay: 19.3s;
+}
+#text1-195{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.4s;
+            animation-delay: 19.4s;
+}
+#text1-196{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.5s;
+            animation-delay: 19.5s;
+}
+#text1-197{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.6s;
+            animation-delay: 19.6s;
+}
+#text1-198{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.7s;
+            animation-delay: 19.7s;
+}
+#text1-199{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.8s;
+            animation-delay: 19.8s;
+}
+#text1-200{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.9s;
+            animation-delay: 19.9s;
+}
+#text1-201{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+}
+#text1-202{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.1s;
+            animation-delay: 20.1s;
+}
+#text1-203{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.2s;
+            animation-delay: 20.2s;
+}
+#text1-204{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.3s;
+            animation-delay: 20.3s;
+}
+#text1-205{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.4s;
+            animation-delay: 20.4s;
+}
+#text1-206{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.5s;
+            animation-delay: 20.5s;
+}
+#text1-207{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.6s;
+            animation-delay: 20.6s;
+}
+#text1-208{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.7s;
+            animation-delay: 20.7s;
+}
+#text1-209{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.8s;
+            animation-delay: 20.8s;
+}
+#text1-210{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.9s;
+            animation-delay: 20.9s;
+}
+#text1-211{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21s;
+            animation-delay: 21s;
+}
+#text1-212{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.1s;
+            animation-delay: 21.1s;
+}
+#text1-213{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.2s;
+            animation-delay: 21.2s;
+}
+#text1-214{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.3s;
+            animation-delay: 21.3s;
+}
+#text1-215{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.4s;
+            animation-delay: 21.4s;
+}
+#text1-216{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.5s;
+            animation-delay: 21.5s;
+}
+#text1-217{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.6s;
+            animation-delay: 21.6s;
+}
+#text1-218{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.7s;
+            animation-delay: 21.7s;
+}
+#text1-219{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.8s;
+            animation-delay: 21.8s;
+}
+#text1-220{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.9s;
+            animation-delay: 21.9s;
+}
+#text1-221{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22s;
+            animation-delay: 22s;
+}
+#text1-222{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.1s;
+            animation-delay: 22.1s;
+}
+#text1-223{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.2s;
+            animation-delay: 22.2s;
+}
+#text1-224{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.3s;
+            animation-delay: 22.3s;
+}
+#text1-225{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.4s;
+            animation-delay: 22.4s;
+}
+#text1-226{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.5s;
+            animation-delay: 22.5s;
+}
+#text1-227{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.6s;
+            animation-delay: 22.6s;
+}
+#text1-228{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.7s;
+            animation-delay: 22.7s;
+}
+#text1-229{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.8s;
+            animation-delay: 22.8s;
+}
+#text1-230{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 22.9s;
+            animation-delay: 22.9s;
+}
+#text1-231{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.0s;
+            animation-delay: 23.0s;
+}
+#text1-232{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.1s;
+            animation-delay: 23.1s;
+}
+#text1-233{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.2s;
+            animation-delay: 23.2s;
+}
+
+#text1-234{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.3s;
+            animation-delay: 23.3s;
+}
+#text1-235{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.4s;
+            animation-delay: 23.4s;
+}
+#text1-236{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.5s;
+            animation-delay: 23.5s;
+}
+#text1-237{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.6s;
+            animation-delay: 23.6s;
+}
+#text1-238{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.7s;
+            animation-delay: 23.7s;
+}
+#text1-239{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.8s;
+            animation-delay: 23.8s;
+}
+#text1-240{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 23.9s;
+            animation-delay: 23.9s;
+}
+#text1-241{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.0s;
+            animation-delay: 24.0s;
+}
+#text1-242{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.1s;
+            animation-delay: 24.1s;
+}
+#text1-243{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.2s;
+            animation-delay: 24.2s;
+}
+#text1-244{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.3s;
+            animation-delay: 24.3s;
+}
+#text1-245{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.4s;
+            animation-delay: 24.4s;
+}
+#text1-246{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.5s;
+            animation-delay: 24.5s;
+}
+#text1-247{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.6s;
+            animation-delay: 24.6s;
+}
+#text1-248{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.7s;
+            animation-delay: 24.7s;
+}
+#text1-249{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.8s;
+            animation-delay: 24.8s;
+}
+#text1-250{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 24.9s;
+            animation-delay: 24.9s;
+}
+#text1-251{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.0s;
+            animation-delay: 25.0s;
+}
+#text1-252{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.1s;
+            animation-delay: 25.1s;
+}
+#text1-253{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.2s;
+            animation-delay: 25.2s;
+}
+#text-254{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.3s;
+            animation-delay: 25.3s;
+}
+#text-255{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.4s;
+            animation-delay: 25.4s;
+}
+#text-256{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.5s;
+            animation-delay: 25.5s;
+}
+#text-257{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.6s;
+            animation-delay: 25.6s;
+}
+#text-258{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.7s;
+            animation-delay: 25.7s;
+}
+#text-259{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.8s;
+            animation-delay: 25.8s;
+}
+#text1-260{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 25.9s;
+            animation-delay: 25.9s;
+}
+#text1-261{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 26.0s;
+            animation-delay: 26.0s;
+}
+
+
+/*단어*/
+#text2 {
+    font-family: 'ChosunGs';
+    font-size: 36pt;
+    letter-spacing: 9px;
+}
+
+#t1{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+#t2{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+#t3{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+#t4{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+#t5{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+#t6{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+#t7{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+#t8{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+}
+#t9{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+}
+#t10{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+}
+#t11{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+#t12{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.5s;
+            animation-delay: 5.5s;
+}
+#t13{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+}
+#t14{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.5s;
+            animation-delay: 6.5s;
+}
+#t15{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7s;
+            animation-delay: 7s;
+}
+#t16{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.5s;
+            animation-delay: 7.5s;
+}
+#t17{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+}
+#t18{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.5s;
+            animation-delay: 8.5s;
+}
+#t19{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9s;
+            animation-delay: 9s;
+}
+#t20{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.5s;
+            animation-delay: 9.5s;
+}
+#t21{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+#t22{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.5s;
+            animation-delay: 10.5s;
+}
+#t23{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11s;
+            animation-delay: 11s;
+}
+#t24{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.5s;
+            animation-delay: 11.5s;
+}
+#t25{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+}
+#t26{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.5s;
+            animation-delay: 12.5s;
+}
+#t27{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13s;
+            animation-delay: 13s;
+}
+#t28{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.5s;
+            animation-delay: 13.5s;
+}
+#t29{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14s;
+            animation-delay: 14s;
+}
+#t30{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.5s;
+            animation-delay: 14.5s;
+}
+#t31{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+#t32{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.5s;
+            animation-delay: 15.5s;
+}
+#t33{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
+}
+
+/*자음 모음*/
+#text3 {
+    font-size: 20pt;
+    letter-spacing: 2.9px;
+}
+
+#text3-1{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+#text3-2{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+}
+#text3-3{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+}
+#text3-4{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+}
+#text3-5{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+}
+#text3-6{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+#text3-7{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.8s;
+            animation-delay: 1.8s;
+}
+#text3-8{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.1s;
+            animation-delay: 2.1s;
+}
+#text3-9{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.4s;
+            animation-delay: 2.4s;
+}
+#text3-10{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 2.7s;
+            animation-delay: 2.7s;
+}
+#text3-11{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.0s;
+            animation-delay: 3.0s;
+}
+#text3-12{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.3s;
+            animation-delay: 3.3s;
+}
+#text3-13{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.6s;
+            animation-delay: 3.6s;
+}
+#text3-14{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.9s;
+            animation-delay: 3.9s;
+}
+#text3-15{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.2s;
+            animation-delay: 4.2s;
+}
+#text3-16{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+}
+#text3-17{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.8s;
+            animation-delay: 4.8s;
+}
+#text3-18{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.1s;
+            animation-delay: 5.1s;
+}
+#text3-19{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.4s;
+            animation-delay: 5.4s;
+}
+#text3-20{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 5.7s;
+            animation-delay: 5.7s;
+}
+#text3-21{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.0s;
+            animation-delay: 6.0s;
+}
+#text3-22{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.3s;
+            animation-delay: 6.3s;
+}
+#text3-23{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.6s;
+            animation-delay: 6.6s;
+}
+#text3-24{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 6.9s;
+            animation-delay: 6.9s;
+}
+#text3-25{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.2s;
+            animation-delay: 7.2s;
+}
+#text3-26{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.5s;
+            animation-delay: 7.5s;
+}
+#text3-27{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 7.8s;
+            animation-delay: 7.8s;
+}
+#text3-28{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.1s;
+            animation-delay: 8.1s;
+}
+#text3-29{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.4s;
+            animation-delay: 8.4s;
+}
+#text3-30{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 8.7s;
+            animation-delay: 8.7s;
+}
+#text3-31{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.0s;
+            animation-delay: 9.0s;
+}
+#text3-32{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.3s;
+            animation-delay: 9.3s;
+}
+#text3-33{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.6s;
+            animation-delay: 9.6s;
+}
+#text3-34{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 9.9s;
+            animation-delay: 9.9s;
+}
+#text3-35{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.2s;
+            animation-delay: 10.2s;
+}
+#text3-36{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.5s;
+            animation-delay: 10.5s;
+}
+#text3-37{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 10.8s;
+            animation-delay: 10.8s;
+}
+#text3-38{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.1s;
+            animation-delay: 11.1s;
+}
+#text3-39{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.4s;
+            animation-delay: 11.4s;
+}
+#text3-40{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 11.7s;
+            animation-delay: 11.7s;
+}
+#text3-41{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+}
+#text3-42{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.3s;
+            animation-delay: 12.3s;
+}
+#text3-43{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.6s;
+            animation-delay: 12.6s;
+}
+#text3-44{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 12.9s;
+            animation-delay: 12.9s;
+}
+#text3-45{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.2s;
+            animation-delay: 13.2s;
+}
+#text3-46{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.5s;
+            animation-delay: 13.5s;
+}
+#text3-47{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 13.8s;
+            animation-delay: 13.8s;
+}
+#text3-48{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.1s;
+            animation-delay: 14.1s;
+}
+#text3-49{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.4s;
+            animation-delay: 14.4s;
+}
+#text3-50{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 14.7s;
+            animation-delay: 14.7s;
+}
+#text3-51{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+#text3-52{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.3s;
+            animation-delay: 15.3s;
+}
+#text3-53{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.6s;
+            animation-delay: 15.6s;
+}
+#text3-54{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 15.9s;
+            animation-delay: 15.9s;
+}
+#text3-55{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.2s;
+            animation-delay: 16.2s;
+}
+#text3-56{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.5s;
+            animation-delay: 16.5s;
+}
+#text3-57{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 16.8s;
+            animation-delay: 16.8s;
+}
+#text3-58{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.1s;
+            animation-delay: 17.1s;
+}
+#text3-59{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.4s;
+            animation-delay: 17.4s;
+}
+#text3-60{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 17.7s;
+            animation-delay: 17.7s;
+}
+#text3-61{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.0s;
+            animation-delay: 18.0s;
+}
+#text3-62{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.3s;
+            animation-delay: 18.3s;
+}
+#text3-63{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.6s;
+            animation-delay: 18.6s;
+}
+#text3-64{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 18.9s;
+            animation-delay: 18.9s;
+}
+#text3-65{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.2s;
+            animation-delay: 19.2s;
+}
+#text3-66{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.5s;
+            animation-delay: 19.5s;
+}
+#text3-67{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 19.8s;
+            animation-delay: 19.8s;
+}
+#text3-68{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.1s;
+            animation-delay: 20.1s;
+}
+#text3-69{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.4s;
+            animation-delay: 20.4s;
+}
+#text3-70{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 20.7s;
+            animation-delay: 20.7s;
+}
+#text3-71{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.0s;
+            animation-delay: 21.0s;
+}
+#text3-72{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.3s;
+            animation-delay: 21.3s;
+}
+#text3-73{
+    fill:transparent;
+    stroke-dasharray: 326px;
+    -webkit-animation: stroke 0.5s linear;
+            animation: stroke 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 21.6s;
+            animation-delay: 21.6s;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}

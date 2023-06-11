@@ -1,0 +1,483 @@
+*{
+    margin: 5px;
+    padding: 2px;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+#marquee {
+  height: 50%;
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+#marquee div {
+  display: block;
+  width: 200%;
+  height: 50%;
+
+  position: absolute;
+  overflow: hidden;
+
+  -webkit-animation: marquee 5s linear infinite;
+
+          animation: marquee 5s linear infinite;
+}
+
+#marquee span {
+  float: left;
+  width: 100%;
+}
+
+@-webkit-keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+#marquee {
+    overflow: hidden;
+    position: relative;
+    height: 80vw;
+    background-color: #ffffff;
+  }
+  
+#marquee div {
+    display: block;
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    -webkit-animation: marquee 10s linear infinite;
+            animation: marquee 10s linear infinite;
+  }
+  
+#marquee span {
+    float: left;
+    width: 50%;
+  }
+
+/**/
+@-webkit-keyframes Jump{
+    0%{top:200px; opacity:0;}
+    50%{top:50px;}
+    70%{top:50px;}
+    100%{top:200px;opacity:1;}
+}
+@keyframes Jump{
+    0%{top:200px; opacity:0;}
+    50%{top:50px;}
+    70%{top:50px;}
+    100%{top:200px;opacity:1;}
+}
+
+
+#t1{
+    font-size: 400pt;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+
+#t1-1 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 1s ease-in-out infinite;
+            animation: Jump 1s ease-in-out infinite;
+}
+#t1-2 {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 1.5s ease-in-out infinite;
+            animation: Jump 1.5s ease-in-out infinite;
+}
+#t1-3 {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 2s ease-in-out infinite;
+            animation: Jump 2s ease-in-out infinite;
+}
+#t1-4 {
+    position: absolute;
+    top: 200px;
+    left: 2200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 2.5s ease-in-out infinite;
+            animation: Jump 2.5s ease-in-out infinite;
+}
+#t1-5 {
+    position: absolute;
+    top: 200px;
+    left: 2900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 3s ease-in-out infinite;
+            animation: Jump 3s ease-in-out infinite;
+}
+
+/**/
+
+#t2{
+    font-size: 120pt;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+#t2-1 {
+    position: absolute;
+    top: 200px;
+    left: 3600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 3.5s ease-in-out infinite;
+            animation: Jump 3.5s ease-in-out infinite;
+}
+#t2-2 {
+    position: absolute;
+    top: 200px;
+    left: 4300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 4s ease-in-out infinite;
+            animation: Jump 4s ease-in-out infinite;
+}
+#t2-3 {
+    position: absolute;
+    top: 200px;
+    left: 5000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 4.5s ease-in-out infinite;
+            animation: Jump 4.5s ease-in-out infinite;
+}
+#t2-4 {
+    position: absolute;
+    top: 200px;
+    left: 5700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 5s ease-in-out infinite;
+            animation: Jump 5s ease-in-out infinite;
+}
+#t2-5 {
+    position: absolute;
+    top: 200px;
+    left: 6400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 5.5s ease-in-out infinite;
+            animation: Jump 5.5s ease-in-out infinite;
+}
+
+/**/
+
+#t3{
+    font-size: 120pt;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+#t3-1 {
+    position: absolute;
+    top: 200px;
+    left: 7100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 6s ease-in-out infinite;
+            animation: Jump 6s ease-in-out infinite;
+}
+#t3-2 {
+    position: absolute;
+    top: 200px;
+    left: 7800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 6.5s ease-in-out infinite;
+            animation: Jump 6.5s ease-in-out infinite;
+}
+#t3-3 {
+    position: absolute;
+    top: 200px;
+    left: 8500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 7s ease-in-out infinite;
+            animation: Jump 7s ease-in-out infinite;
+}
+#t3-4 {
+    position: absolute;
+    top: 200px;
+    left: 9200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 7.5s ease-in-out infinite;
+            animation: Jump 7.5s ease-in-out infinite;
+}
+#t3-5 {
+    position: absolute;
+    top: 200px;
+    left: 9900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 8s ease-in-out infinite;
+            animation: Jump 8s ease-in-out infinite;
+}
+
+/**/
+
+#t4{
+    font-size: 120pt;
+    font-family: 'ChosunGs';
+    font-weight: normal;
+}
+#t4-1 {
+    position: absolute;
+    top: 200px;
+    left: 7600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 4s ease-in-out infinite;
+            animation: Jump 4s ease-in-out infinite;
+}
+#t4-2 {
+    position: absolute;
+    top: 200px;
+    left: 8100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 4.2s ease-in-out infinite;
+            animation: Jump 4.2s ease-in-out infinite;
+}
+#t4-3 {
+    position: absolute;
+    top: 200px;
+    left: 8600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 4.4s ease-in-out infinite;
+            animation: Jump 4.4s ease-in-out infinite;
+}
+#t4-4 {
+    position: absolute;
+    top: 200px;
+    left: 9100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 4.6s ease-in-out infinite;
+            animation: Jump 4.6s ease-in-out infinite;
+}
+#t4-5 {
+    position: absolute;
+    top: 200px;
+    left: 9600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: Jump 4.8s ease-in-out infinite;
+            animation: Jump 4.8s ease-in-out infinite;
+}
+
+
+a {
+        text-decoration: none;
+        color: #000000;
+    }
+.btn .line{
+    position: absolute;
+        width: 20px;
+        height: 1px;
+        background-color: #000000;
+        display: block;
+        }
+          
+.btn:hover{
+    cursor: pointer;
+}
+        
+.line:nth-child(1) {
+            position: absolute;
+            top:803px;
+            left:1600px;
+            -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+        }
+.line:nth-child(2) {
+            position: absolute;
+            top:789px;
+            left:1600px;
+            -webkit-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+        }
+.line:nth-child(3) {
+            width: 30px;
+            height:2px;
+            position: absolute;
+            top:796px;
+            left:1609px;
+        }

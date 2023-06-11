@@ -1,0 +1,1803 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 20px;
+    padding: 20px;
+    padding-right: 40px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 1;
+}
+body{
+    background-image: url('./선.svg');
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    background-size: 3000px;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+/*주지주지*/
+#text2{
+    position: absolute;
+    top: 100px;
+    left: 1080px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+#t2-1 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate1 4s ease-out infinite;
+            animation: rotate1 4s ease-out infinite;
+}
+@-webkit-keyframes rotate1 {
+    0% {rotate :0deg;}
+    20% {rotate:45deg;}
+    30% {rotate:90deg;}
+    40% {rotate:135deg;}
+    50% {rotate:180deg;}
+    60% {rotate:225deg;}
+    70% {rotate:270deg;}
+    80% {rotate:315deg;}
+    100% {rotate:360deg;}
+}
+@keyframes rotate1 {
+    0% {rotate :0deg;}
+    20% {rotate:45deg;}
+    30% {rotate:90deg;}
+    40% {rotate:135deg;}
+    50% {rotate:180deg;}
+    60% {rotate:225deg;}
+    70% {rotate:270deg;}
+    80% {rotate:315deg;}
+    100% {rotate:360deg;}
+}
+
+#t2-2 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+
+    -webkit-animation: rotate7 2s ease-in-out ;
+
+            animation: rotate7 2s ease-in-out ;
+}
+@-webkit-keyframes rotate7 {
+    0% {background-color: rgb(255, 255, 255); color: black;}
+    20% {background-color: rgb(225, 225, 225); color: rgb(35, 35, 35);}
+    30% {background-color: rgb(200, 200, 200); color: rgb(84, 84, 84);}
+    40% {background-color: rgb(165, 165, 165); color: rgb(102, 102, 102);}
+    50% {background-color: rgb(123, 123, 123); color: rgb(135, 135, 135);}
+    60% {background-color: rgb(104, 104, 104); color: rgb(152, 152, 152);}
+    70% {background-color: rgb(57, 57, 57); color: rgb(196, 196, 196);}
+    80% {background-color: rgb(31, 31, 31); color: rgb(218, 218, 218);}
+    100% {background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);}
+}
+@keyframes rotate7 {
+    0% {background-color: rgb(255, 255, 255); color: black;}
+    20% {background-color: rgb(225, 225, 225); color: rgb(35, 35, 35);}
+    30% {background-color: rgb(200, 200, 200); color: rgb(84, 84, 84);}
+    40% {background-color: rgb(165, 165, 165); color: rgb(102, 102, 102);}
+    50% {background-color: rgb(123, 123, 123); color: rgb(135, 135, 135);}
+    60% {background-color: rgb(104, 104, 104); color: rgb(152, 152, 152);}
+    70% {background-color: rgb(57, 57, 57); color: rgb(196, 196, 196);}
+    80% {background-color: rgb(31, 31, 31); color: rgb(218, 218, 218);}
+    100% {background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);}
+}
+
+#t2-3 {
+    position: absolute;
+    top: 0px;
+    left: 380px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate1 2s ease-out infinite;
+            animation: rotate1 2s ease-out infinite;
+}
+@keyframes rotate1 {
+    0% {rotate :0deg;}
+    20% {rotate:45deg;}
+    30% {rotate:90deg;}
+    40% {rotate:135deg;}
+    50% {rotate:180deg;}
+    60% {rotate:225deg;}
+    70% {rotate:270deg;}
+    80% {rotate:315deg;}
+    100% {rotate:360deg;}
+}
+
+#t2-4 {
+    position: absolute;
+    top: 0px;
+    left: 560px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+
+    -webkit-animation: rotate7 2s ease-in-out ;
+
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+
+}
+@keyframes rotate7 {
+    0% {background-color: rgb(255, 255, 255); color: black;}
+    20% {background-color: rgb(225, 225, 225); color: rgb(35, 35, 35);}
+    30% {background-color: rgb(200, 200, 200); color: rgb(84, 84, 84);}
+    40% {background-color: rgb(165, 165, 165); color: rgb(102, 102, 102);}
+    50% {background-color: rgb(123, 123, 123); color: rgb(135, 135, 135);}
+    60% {background-color: rgb(104, 104, 104); color: rgb(152, 152, 152);}
+    70% {background-color: rgb(57, 57, 57); color: rgb(196, 196, 196);}
+    80% {background-color: rgb(31, 31, 31); color: rgb(218, 218, 218);}
+    100% {background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);}
+}
+/**/
+
+#text3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+#t3-1{
+    position: absolute;
+    top: 300px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate2 2s ease-out infinite;
+            animation: rotate2 2s ease-out infinite;
+}
+@-webkit-keyframes rotate2 {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1.0;}   
+}
+@keyframes rotate2 {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1.0;}   
+}
+#t3-2{
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7 2s ease-in-out ;
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#t3-3{
+    position: absolute;
+    top: 300px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate2 4s ease-out infinite;
+            animation: rotate2 4s ease-out infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+@keyframes rotate2 {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1.0;}   
+}
+#t3-4{
+    position: absolute;
+    top: 300px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7 2s ease-in-out ;
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+/**/
+#text4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+#t4-1{
+    position: absolute;
+    top: 500px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    
+}
+
+#t4-2{
+    position: absolute;
+    top: 500px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    
+}
+
+#t4-3{
+    position: absolute;
+    top: 500px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+#t4-4{
+    position: absolute;
+    top: 500px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7 2s ease-in-out ;
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/**/
+#text5 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+#t5-1{
+    position: absolute;
+    top: 700px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate4 1s ease-out infinite;
+            animation: rotate4 1s ease-out infinite;
+}
+@-webkit-keyframes rotate4 {
+    0% {opacity: 1.0;}
+    10% {opacity: 0.9;}
+    20% {opacity: 0.8;}
+    30% {opacity: 0.7;}
+    40% {opacity: 0.6;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.4;}
+    70% {opacity: 0.3;}
+    80% {opacity: 0.2;}
+    90% {opacity: 0.1;}
+    100% {opacity: 0.1;}   
+}
+@keyframes rotate4 {
+    0% {opacity: 1.0;}
+    10% {opacity: 0.9;}
+    20% {opacity: 0.8;}
+    30% {opacity: 0.7;}
+    40% {opacity: 0.6;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.4;}
+    70% {opacity: 0.3;}
+    80% {opacity: 0.2;}
+    90% {opacity: 0.1;}
+    100% {opacity: 0.1;}   
+}
+#t5-2{
+    position: absolute;
+    top: 700px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+
+    -webkit-animation: rotate7 2s ease-in-out ;
+
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#t5-3{
+    position: absolute;
+    top: 700px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate4 5s ease-out;
+            animation: rotate4 5s ease-out;
+}
+@keyframes rotate4 {
+    0% {opacity: 1.0;}
+    10% {opacity: 0.9;}
+    20% {opacity: 0.8;}
+    30% {opacity: 0.7;}
+    40% {opacity: 0.6;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.4;}
+    70% {opacity: 0.3;}
+    80% {opacity: 0.2;}
+    90% {opacity: 0.1;}
+    100% {opacity: 0.1;}   
+}
+#t5-4{
+    position: absolute;
+    top: 700px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7 2s ease-in-out ;
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+/**/
+#text6 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+#t6-1{
+    position: absolute;
+    top: 900px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate5-1 8s ease-out infinite;
+            animation: rotate5-1 8s ease-out infinite;
+}
+@-webkit-keyframes rotate5-1 {
+    0% {rotate :0deg;}
+    20% {rotate:45deg;}
+    30% {rotate:-45deg;}
+    40% {rotate:90deg;}
+    50% {rotate:-90deg;}
+    60% {rotate:135deg;}
+    70% {rotate:-135deg;}
+    80% {rotate:180deg;}
+    100% {rotate:-180deg;}
+}
+@keyframes rotate5-1 {
+    0% {rotate :0deg;}
+    20% {rotate:45deg;}
+    30% {rotate:-45deg;}
+    40% {rotate:90deg;}
+    50% {rotate:-90deg;}
+    60% {rotate:135deg;}
+    70% {rotate:-135deg;}
+    80% {rotate:180deg;}
+    100% {rotate:-180deg;}
+}
+
+#t6-2{
+    position: absolute;
+    top: 900px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+
+    -webkit-animation: rotate7 2s ease-in-out ;
+
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 14s;
+            animation-delay: 14s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#t6-3{
+    position: absolute;
+    top: 900px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate5-2 10s ease-out infinite;
+            animation: rotate5-2 10s ease-out infinite;
+}
+@-webkit-keyframes rotate5-2 {
+    0% {rotate :0deg;}
+    20% {rotate:45deg;}
+    30% {rotate:90deg;}
+    40% {rotate:45deg;}
+    50% {rotate:0deg;}
+    60% {rotate:0deg;}
+    70% {rotate:-45deg;}
+    80% {rotate:-90deg;}
+    90% {rotate:-45deg;}
+    100% {rotate:0deg;}
+}
+@keyframes rotate5-2 {
+    0% {rotate :0deg;}
+    20% {rotate:45deg;}
+    30% {rotate:90deg;}
+    40% {rotate:45deg;}
+    50% {rotate:0deg;}
+    60% {rotate:0deg;}
+    70% {rotate:-45deg;}
+    80% {rotate:-90deg;}
+    90% {rotate:-45deg;}
+    100% {rotate:0deg;}
+}
+#t6-4{
+    position: absolute;
+    top: 900px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7 2s ease-in-out ;
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+/**/
+#text7 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+#t7-1{
+    position: absolute;
+    top: 1100px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate6 1s ease-out infinite;
+            animation: rotate6 1s ease-out infinite;
+}
+@-webkit-keyframes rotate6 {
+    0% {top: 1200px;  opacity:0;}
+    50% {top: 1100px;}
+    70% {top: 1100px;}
+    100% {top: 1200px; opacity:1;}
+}
+@keyframes rotate6 {
+    0% {top: 1200px;  opacity:0;}
+    50% {top: 1100px;}
+    70% {top: 1100px;}
+    100% {top: 1200px; opacity:1;}
+}
+#t7-2{
+    position: absolute;
+    top: 1100px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+
+    -webkit-animation: rotate7 2s ease-in-out ;
+
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 18s;
+            animation-delay: 18s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#t7-3{
+    position: absolute;
+    top: 1100px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate6 2s ease-out infinite;
+            animation: rotate6 2s ease-out infinite;
+}
+@keyframes rotate6 {
+    0% {top: 1200px;  opacity:0;}
+    50% {top: 1100px;}
+    70% {top: 1100px;}
+    100% {top: 1200px; opacity:1;}
+}
+#t7-4{
+    position: absolute;
+    top: 1100px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate6 3s ease-out infinite;
+            animation: rotate6 3s ease-out infinite;
+}
+@keyframes rotate6 {
+    0% {top: 1200px;  opacity:0;}
+    50% {top: 1100px;}
+    70% {top: 1100px;}
+    100% {top: 1200px; opacity:1;}
+}
+/**/
+#text8 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+#t8-1{
+    position: absolute;
+    top: 100px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+
+}
+#t8-2{
+    position: absolute;
+    top: 300px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+#t8-3{
+    position: absolute;
+    top: 500px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+#t8-4{
+    position: absolute;
+    top: 700px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+#t8-5{
+    position: absolute;
+    top: 900px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+}
+
+
+/*미디어 쿼리-적용 전*/
+
+#text88 {
+    opacity: 0;
+}
+#text9 {
+    opacity: 0;
+}
+
+/*지지지지*/
+#text {
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    font-family: 'ChosunGs';;
+}
+.text1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.text2{
+    position: absolute;
+    font-size: 80px;
+    top: 40px;
+    left: 40px;
+    -webkit-animation: size1 4s ease-out;
+            animation: size1 4s ease-out;
+}
+
+@-webkit-keyframes size1 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 80px; top:40px; left:40px}
+}
+
+@keyframes size1 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 80px; top:40px; left:40px}
+}
+
+.text3{
+    position: absolute;
+    font-size: 120px;
+    top: 60px;
+    left: 60px;
+    -webkit-animation: size2 4s ease-out;
+            animation: size2 4s ease-out;
+}
+
+@-webkit-keyframes size2 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 120px; top:60px; left:60px}
+}
+
+@keyframes size2 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 120px; top:60px; left:60px}
+}
+
+.text4{
+    position: absolute;
+    font-size: 160px;
+    top: 80px;
+    left: 80px;
+    -webkit-animation: size3 4s ease-out;
+            animation: size3 4s ease-out;
+}
+
+@-webkit-keyframes size3 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 160px; top:80px; left:80px}
+}
+
+@keyframes size3 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 160px; top:80px; left:80px}
+}
+
+.text5{
+    position: absolute;
+    font-size: 200px;
+    top: 120px;
+    left: 120px;
+    -webkit-animation: size5 4s ease-out;
+            animation: size5 4s ease-out;
+}
+
+@-webkit-keyframes size5 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 200px; top:120px; left:120px}
+}
+
+@keyframes size5 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 200px; top:120px; left:120px}
+}
+
+.text6{
+    position: absolute;
+    font-size: 240px;
+    top: 160px;
+    left: 160px;
+    -webkit-animation: size6 4s ease-out;
+            animation: size6 4s ease-out;
+}
+
+@-webkit-keyframes size6 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 240px; top:160px; left:160px}
+}
+
+@keyframes size6 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 240px; top:160px; left:160px}
+}
+
+.text7{
+    position: absolute;
+    font-size: 280px;
+    top: 200px;
+    left: 200px;
+    -webkit-animation: size7 4s ease-out;
+            animation: size7 4s ease-out;
+}
+
+@-webkit-keyframes size7 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 280px; top:200px; left:200px}
+}
+
+@keyframes size7 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 280px; top:200px; left:200px}
+}
+
+.text8{
+    position: absolute;
+    font-size: 320px;
+    top: 270px;
+    left: 270px;
+    -webkit-animation: size8 4s ease-out;
+            animation: size8 4s ease-out;
+}
+
+@-webkit-keyframes size8 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 320px; top:270px; left:270px}
+}
+
+@keyframes size8 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 320px; top:270px; left:270px}
+}
+
+.text9{
+    position: absolute;
+    font-size: 500px;
+    top: 330px;
+    left: 330px;
+    -webkit-animation: size9 4s ease-out;
+            animation: size9 4s ease-out;
+}
+
+@-webkit-keyframes size9 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 500px; top:330px; left:330px}
+}
+
+@keyframes size9 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 500px; top:330px; left:330px}
+}
+
+.text10{
+    position: absolute;
+    font-size: 570px;
+    top: 450px;
+    left: 450px;
+    -webkit-animation: size10 4s ease-out;
+            animation: size10 4s ease-out;
+}
+
+@-webkit-keyframes size10 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 570px; top:450px; left:450px}
+}
+
+@keyframes size10 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 570px; top:450px; left:450px}
+}
+
+.text11{
+    position: absolute;
+    font-size: 600px;
+    border: 10px;
+    border-color: rgb(255, 255, 255);
+    top: 600px;
+    left: 600px;
+    -webkit-animation: size11 4s ease-out;
+            animation: size11 4s ease-out;
+}
+
+@-webkit-keyframes size11 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 600x; top:600px; left:600px}
+}
+
+@keyframes size11 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 600x; top:600px; left:600px}
+}
+
+.text12{
+    position: absolute;
+    font-size: 700px;
+    border: 10px;
+    border-color: rgb(255, 255, 255);
+    top: 750px;
+    left: 750px;
+    -webkit-animation: size12 4s ease-out;
+            animation: size12 4s ease-out;
+}
+
+@-webkit-keyframes size12 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 700x; top:750px; left:750px}
+}
+
+@keyframes size12 {
+    0% {font-size: 40px; top:40px; left:40px}
+    100% {font-size: 700x; top:750px; left:750px}
+}
+
+/*미디어쿼리*/
+@media screen and (max-width: 1024px) {
+
+    body{
+    background-color: #000000;
+    background-image: url('./선2.svg');
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    background-size: 3000px;
+    }
+
+    #text {
+        font-size: 40px;
+        font-weight: normal;
+        color: rgb(255, 255, 255);
+        font-family: 'ChosunGs';
+        opacity: 1;
+    }
+
+    @-webkit-keyframes rotate7-1 {
+        0% {background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);}
+        20% {background-color: rgb(31, 31, 31); color: rgb(190, 190, 190);}
+        30% {background-color: rgb(57, 57, 57); color: rgb(158, 158, 158);}
+        40% {background-color: rgb(104, 104, 104); color: rgb(138, 138, 138);} 
+        50% {background-color: rgb(123, 123, 123); color: rgb(120, 120, 120);}
+        60% {background-color: rgb(165, 165, 165); color: rgb(93, 93, 93);}
+        70% {background-color: rgb(200, 200, 200); color: rgb(67, 67, 67);}
+        80% {background-color: rgb(225, 225, 225); color: rgb(35, 35, 35);}
+        100% {background-color: rgb(255, 255, 255); color: black;}
+    }
+
+    @keyframes rotate7-1 {
+        0% {background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);}
+        20% {background-color: rgb(31, 31, 31); color: rgb(190, 190, 190);}
+        30% {background-color: rgb(57, 57, 57); color: rgb(158, 158, 158);}
+        40% {background-color: rgb(104, 104, 104); color: rgb(138, 138, 138);} 
+        50% {background-color: rgb(123, 123, 123); color: rgb(120, 120, 120);}
+        60% {background-color: rgb(165, 165, 165); color: rgb(93, 93, 93);}
+        70% {background-color: rgb(200, 200, 200); color: rgb(67, 67, 67);}
+        80% {background-color: rgb(225, 225, 225); color: rgb(35, 35, 35);}
+        100% {background-color: rgb(255, 255, 255); color: black;}
+    }
+
+    #text2 {
+        font-size: 20px;
+        font-weight: normal;
+        color: rgb(255, 255, 255);
+        font-family: 'ChosunGs';
+    }
+
+    #t2-1 {
+        color:#ffffff;
+        -webkit-animation: rotate1 4s ease-out infinite;
+                animation: rotate1 4s ease-out infinite;
+    }
+    #t2-2 {
+        color:#ffffff;
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+
+        background-color: rgb(0, 0, 0);
+        -webkit-animation: rotate7-1 2s ease-in-out ;
+                animation: rotate7-1 2s ease-in-out ;
+    }
+    #t2-3 {
+        color:#fff;
+        -webkit-animation: rotate1 4s ease-out infinite;
+                animation: rotate1 4s ease-out infinite;
+    }
+    #t2-4 {
+        color:#ffffff;
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        
+        background-color: rgb(0, 0, 0);
+        -webkit-animation: rotate7-1 2s ease-in-out ;
+                animation: rotate7-1 2s ease-in-out ;
+        -webkit-animation-delay: 2s;
+                animation-delay: 2s;
+    }
+
+    #text3 {
+        font-size: 20px;
+        font-weight: normal;
+        color: rgb(255, 255, 255);
+        font-family: 'ChosunGs';
+    }
+
+    #t3-1 {
+        color: #fff;
+        -webkit-animation: rotate2 2s ease-out infinite;
+                animation: rotate2 2s ease-out infinite;
+    }
+    #t3-2 {
+        color: #ffffff;
+        -webkit-animation: rotate7-1 2s ease-in-out ;
+                animation: rotate7-1 2s ease-in-out ;
+        -webkit-animation-delay: 4s;
+                animation-delay: 4s;
+
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+    #t3-3 {
+        color: #ffffff;
+        -webkit-animation: rotate2 4s ease-out infinite;
+                animation: rotate2 4s ease-out infinite;
+        -webkit-animation-delay: 2s;
+                animation-delay: 2s;
+    }
+    #t3-4 {
+        color: #ffffff;
+        -webkit-animation: rotate7-1 2s ease-in-out ;
+                animation: rotate7-1 2s ease-in-out ;
+        -webkit-animation-delay: 6s;
+                animation-delay: 6s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    #text4 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+    
+    #text5 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+
+    #text6 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+
+    #text7 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+
+    #text8 {
+        display:none;
+    }
+
+    /*우지배지 낙지각지 은지덕지 함지표지 내지배요 빼그르르르르륵*/
+    #text88 {
+        font-size: 20px;
+        font-weight: normal;
+        color: rgb(255, 255, 255);
+        font-family: 'ChosunGs';
+        opacity: 1;
+    }
+    /*우지배지*/
+    #t88-13{
+        opacity: 1;
+        position: absolute;
+        top: 500px;
+        left: 1120px;
+        font-size: 100pt;
+        font-weight: normal;
+        
+        color: rgb(255, 255, 255);
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate3 1s ease-out infinite;
+                animation: rotate3 1s ease-out infinite;
+    }
+    #t88-14{
+        opacity: 1;
+        position: absolute;
+        top: 500px;
+        left: 1300px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: #ffffff;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7-1 2s ease-in-out ;
+                animation: rotate7-1 2s ease-in-out ;
+        -webkit-animation-delay: 8s;
+                animation-delay: 8s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+    #t88-15{
+        position: absolute;
+        top: 500px;
+        left: 1480px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: #fff;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate3 6s ease-out infinite;
+                animation: rotate3 6s ease-out infinite;
+    }
+    #t88-16{
+        position: absolute;
+        top: 500px;
+        left: 1660px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: #ffffff;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7-1 2s ease-in-out ;
+                animation: rotate7-1 2s ease-in-out ;
+        -webkit-animation-delay: 10s;
+                animation-delay: 10s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    
+    /*낙지각지*/
+    #t88-17{
+        position: absolute;
+        top: 700px;
+        left: 1120px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: #fff;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate4 1s ease-out infinite;
+                animation: rotate4 1s ease-out infinite;
+    }
+    #t88-18{
+        position: absolute;
+        top: 700px;
+        left: 1300px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: #fff;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7-1 2s ease-in-out ;
+                animation: rotate7-1 2s ease-in-out ;
+        -webkit-animation-delay: 12s;
+                animation-delay: 12s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+    #t88-19{
+        position: absolute;
+        top: 700px;
+        left: 1480px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: #fff;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate4 7s ease-out infinite;
+                animation: rotate4 7s ease-out infinite;
+    }
+    #t88-20{
+        position: absolute;
+        top: 700px;
+        left: 1660px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: #fff;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7-1 2s ease-in-out ;
+                animation: rotate7-1 2s ease-in-out ;
+        -webkit-animation-delay: 14s;
+                animation-delay: 14s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    /*은지덕지*/
+
+    #t88-25{
+    position: absolute;
+    top: 900px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate5-1 8s ease-out infinite;
+            animation: rotate5-1 8s ease-out infinite;
+    }
+    #t88-26{
+    position: absolute;
+    top: 900px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7-1 2s ease-in-out ;
+            animation: rotate7-1 2s ease-in-out ;
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    }
+    #t88-27{
+    position: absolute;
+    top: 900px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate5-2 10s ease-out infinite;
+            animation: rotate5-2 10s ease-out infinite;
+    }
+    #t88-28{
+    position: absolute;
+    top: 900px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7-1 2s ease-in-out ;
+            animation: rotate7-1 2s ease-in-out ;
+    -webkit-animation-delay: 18s;
+            animation-delay: 18s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    }
+
+    /*함지표지*/
+    #t88-29{
+    position: absolute;
+    top: 1100px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate6 1s ease-out infinite;
+            animation: rotate6 1s ease-out infinite;
+    }
+    #t88-30{
+    position: absolute;
+    top: 1100px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7-1 2s ease-in-out ;
+            animation: rotate7-1 2s ease-in-out ;
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    }
+    #t88-31{
+    position: absolute;
+    top: 1100px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate6 2s ease-out infinite;
+            animation: rotate6 2s ease-out infinite;
+    }
+    #t88-32{
+    position: absolute;
+    top: 1100px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7-1 2s ease-in-out ;
+            animation: rotate7-1 2s ease-in-out ;
+    -webkit-animation-delay: 22s;
+            animation-delay: 22s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    
+    }
+
+    /*내지배오*/
+    #t88-33{
+    position: absolute;
+    top: 1300px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    }
+    #t88-34{
+    position: absolute;
+    top: 1300px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7-1 2s ease-in-out ;
+            animation: rotate7-1 2s ease-in-out ;
+    -webkit-animation-delay: 24s;
+            animation-delay: 24s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    }
+    #t88-35{
+    position: absolute;
+    top: 1300px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    
+    }
+    #t88-36{
+    position: absolute;
+    top: 1300px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    
+    }
+
+
+    /*빼그르르르르륵*/
+    #t88-37{
+    position: absolute;
+    top: 100px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+
+    }
+    #t88-38{
+    position: absolute;
+    top: 300px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    }
+    #t88-39{
+    position: absolute;
+    top: 500px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    }
+    #t88-40{
+    position: absolute;
+    top: 700px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    }
+    #t88-41{
+    position: absolute;
+    top: 900px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    }
+    #t88-42{
+    position: absolute;
+    top: 1100px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    }
+    #t88-43{
+    position: absolute;
+    top: 1300px;
+    left: 2200px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'ChosunGs';
+    }
+}
+
+
+/*지지주지 우지주지 함지표지 우지매라*/
+@media screen and (max-width: 768px) {
+
+    body{
+        background-color: #fff;
+        background-image: url('./선.svg');
+        background-repeat: no-repeat;
+        background-position: 0 10px;
+        background-size: 3000px;
+    
+    }
+    #text {
+        font-size: 40px;
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+        font-family: 'ChosunGs';
+        opacity: 1;
+    }
+    #text1 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+    #text2 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+    #text3 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+    #text4 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+    #text5 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+    #text6 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+    #text7 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+
+    #text8 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 0;
+    }
+
+    #text88{
+       display: none;
+    }
+
+    /*지지주지 우지주지 함지표지 우지매라*/
+    #text9 {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        opacity: 1;
+    }
+    /*지지주지*/
+    #t9-1{
+        position: absolute;
+        top: 100px;
+        left: 1120px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7 2s ease-in-out ;
+                animation: rotate7 2s ease-in-out ;
+        -webkit-animation-delay: 0s;
+                animation-delay: 0s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t9-2{
+        position: absolute;
+        top: 100px;
+        left: 1300px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7 2s ease-in-out ;
+                animation: rotate7 2s ease-in-out ;
+        -webkit-animation-delay: 2s;
+                animation-delay: 2s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t9-3{
+        position: absolute;
+        top: 100px;
+        left: 1480px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate3 6s ease-out infinite;
+                animation: rotate3 6s ease-out infinite;
+    }
+    #t9-4{
+        position: absolute;
+        top: 100px;
+        left: 1660px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7 2s ease-in-out ;
+                animation: rotate7 2s ease-in-out ;
+        -webkit-animation-delay: 4s;
+                animation-delay: 4s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    /*우지주지*/
+    #t9-5{
+        position: absolute;
+        top: 500px;
+        left: 1120px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate4 1s ease-out infinite;
+                animation: rotate4 1s ease-out infinite;
+    }
+    #t9-6{
+        position: absolute;
+        top: 500px;
+        left: 1300px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7 2s ease-in-out ;
+                animation: rotate7 2s ease-in-out ;
+        -webkit-animation-delay: 6s;
+                animation-delay: 6s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #t9-7{
+        position: absolute;
+        top: 500px;
+        left: 1480px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate4 7s ease-out infinite;
+                animation: rotate4 7s ease-out infinite;
+    }
+    #t9-8{
+        position: absolute;
+        top: 500px;
+        left: 1660px;
+        font-size: 100pt;
+        font-weight: normal;
+        color: black;
+        font-family: 'ChosunGs';
+        font-family: 'ChosunGs';
+        -webkit-animation: rotate7 2s ease-in-out ;
+                animation: rotate7 2s ease-in-out ;
+        -webkit-animation-delay: 8s;
+                animation-delay: 8s;
+    
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    /*함지표지*/
+    #t9-9{
+    position: absolute;
+    top: 900px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate5-1 8s ease-out infinite;
+            animation: rotate5-1 8s ease-out infinite;
+    }
+    #t9-10{
+    position: absolute;
+    top: 900px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7 2s ease-in-out ;
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    }
+    #t9-11{
+    position: absolute;
+    top: 900px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate5-2 10s ease-out infinite;
+            animation: rotate5-2 10s ease-out infinite;
+    }
+    #t9-12{
+    position: absolute;
+    top: 900px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7 2s ease-in-out ;
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    }
+    /*우지매라*/
+    #t9-13{
+    position: absolute;
+    top: 1300px;
+    left: 1120px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate6 1s ease-out infinite;
+            animation: rotate6 1s ease-out infinite;
+    
+    }
+    #t9-14{
+    position: absolute;
+    top: 1300px;
+    left: 1300px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate7 2s ease-in-out ;
+            animation: rotate7 2s ease-in-out ;
+    -webkit-animation-delay: 14s;
+            animation-delay: 14s;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    }
+    #t9-15{
+    position: absolute;
+    top: 1300px;
+    left: 1480px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate6 2s ease-out infinite;
+            animation: rotate6 2s ease-out infinite;
+    }
+    #t9-16{
+    position: absolute;
+    top: 1300px;
+    left: 1660px;
+    font-size: 100pt;
+    font-weight: normal;
+    color: black;
+    font-family: 'ChosunGs';
+    -webkit-animation: rotate6 3s ease-out infinite;
+            animation: rotate6 3s ease-out infinite;
+}
+
+}

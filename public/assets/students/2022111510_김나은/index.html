@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>나폴리탄 괴담</title>
+    <style>
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1;
+        }
+
+        #screen {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(220, 220, 220);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            overflow: hidden;
+        }
+
+        #a4 {
+            width: 29.7cm;
+            height: 21cm;
+            background-color: rgb(0, 0, 0);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="app1">
+            <p id="new-window">HOW TO FOLD A BOOK</p>
+        </div>
+        <!-- <button onclick="printPage()">Print</button> -->
+        <div id="a4">
+            <div class="item-image">
+                <img src="./나폴리탄22.png">
+            </div>
+        </div>
+    </div>
+    <!-- <p class="anim" src="./자산 1.pdf"></p> -->
+</body>
+<script src="./script.js"></script>
+</html>
