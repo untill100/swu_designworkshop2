@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+  }
+  
+  html, body {
+    font-size: 62.5%;
+    height: 100%;
+    overflow:hidden;
+    cursor: none;
+  }
+  
+  .scene {
+    position: relative;
+    height: 100%;
+    background: #02021C;
+    padding: 20rem;
+  }
+  
+  .magic {
+    position: absolute;
+    width: 16vw;
+    height: 16vw;
+    background: url("./Asset-3.jpg") no-repeat fixed;
+    background-position: center center;
+    background-size: cover; /* cover */
+    border-radius: 50%;
+  }
+
+  .text101{
+    /* 우리는 우주의 수많은 변수들 가운데 극히 일부분과 상호작용을 하면서, */
+    font-size: 2.2vw;
+    position: absolute;
+    top: calc(100vh - 95vh);
+    left: calc(100vw - 98vw);
+    color:white;
+  }
+
+  .text102{
+    /* 그 안에서 우주를 관측한다. */
+    font-size: 1.2vw;
+    white-space : nowrap;
+    position: absolute;
+    color:white;
+  }
+
+  .text103>a{
+    /* 우리가 본 것은 희미한 이미지다. */
+    font-size: 6vh;
+    position: absolute;
+    white-space : nowrap;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    top: 49vh;
+    left: 50vw;
+    -webkit-box-pack : center;
+        -ms-flex-pack : center;
+            justify-content : center;
+    color:black;
+    background-color: white;
+    text-decoration: none;
+    opacity: 0;
+    
+  }
+  

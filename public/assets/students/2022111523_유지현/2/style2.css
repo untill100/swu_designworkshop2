@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+}
+
+
+
+p{
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 5%;
+  left: 10%;
+  color: rgb(0, 0, 0);
+  display: block;
+  background-color: transparent;
+}
+
+
+.text {
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 18%;
+  left: 10%;
+  color: rgb(0, 0, 0);
+  display: block;
+  background-color: transparent;
+}
+
+.text1 {
+font-size: 36px;
+position: fixed;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+top: 31%;
+left: 10%;
+color: rgb(0, 0, 0);
+display: block;
+background-color: transparent;
+}
+
+.text2 {
+font-size: 36px;
+position: fixed;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+top: 51%;
+left: 10%;
+color: rgb(0, 0, 0);
+display: block;
+background-color: transparent;
+}
+
+
+.text3 {
+font-size: 36px;
+position: fixed;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+top: 64%;
+left: 10%;
+color: rgb(0, 0, 0);
+display: block;
+background-color: transparent;
+}
+
+.text4 {
+font-size: 36px;
+position: fixed;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+top: 70.5%;
+left: 10%;
+color: rgb(0, 0, 0);
+display: block;
+background-color: transparent;
+}
+
+
+.text5 {
+font-size: 36px;
+position: fixed;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+top: 76.2%;
+left: 10%;
+color: rgb(0, 0, 0);
+display: block;
+background-color: transparent;
+}
+
+
+strong{
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+}
+
+.text-overlay {
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 5%;
+  left: 13%;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+.text-overlay2 {
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 18%;
+  left: 31%;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+.text-overlay3 {
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 18%;
+  left: 39%;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+.text-overlay4 {
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 18%;
+  left: 41%;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+.text-overlay5 {
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 18%;
+  left: 45%;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+.text-overlay6 {
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 18%;
+  left: 48%;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+.text-overlay7 {
+  font-size: 36px;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 18%;
+  left: 18%;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+
+.FE {
+  -webkit-animation: fadeEffect 2s infinite;
+          animation: fadeEffect 2s infinite;
+}
+
+@-webkit-keyframes fadeEffect {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeEffect {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.FE1 {
+  -webkit-animation: fadeEffect1 6s infinite;
+          animation: fadeEffect1 6s infinite;
+}
+
+@-webkit-keyframes fadeEffect1 {
+  0% { opacity: 0.5; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeEffect1 {
+  0% { opacity: 0.5; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.FE2 {
+  -webkit-animation: fadeEffect2 4s infinite;
+          animation: fadeEffect2 4s infinite;
+}
+
+@-webkit-keyframes fadeEffect2 {
+  0% { opacity: 0.1; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+@keyframes fadeEffect2 {
+  0% { opacity: 0.1; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+#highlight {
+  position: relative;
+  display: inline-block;
+  -webkit-transition: letter-spacing 5s ease-in-out;
+  -o-transition: letter-spacing 5s ease-in-out;
+  transition: letter-spacing 5s ease-in-out;
+  letter-spacing: 25px;
+}
+
+#highlight:hover {
+  letter-spacing: 0;
+}

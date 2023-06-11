@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+}
+
+
+input[type="text"] { /* type이 text인 input을 선택하는 방법 */
+margin-top: 16px;
+margin-left: 16px;
+margin-bottom: 16px;
+padding: 16px;
+font-size: 32px;
+width: 50%;
+height: 100px; 
+border-radius: 40px;
+}
+
+
+
+.container {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+}
+
+
+.text1 {
+font-size: 32px;
+color:blue;
+position: relative;
+top: 60px;
+}
+
+.text2 {
+font-size: 32px;
+color:red;
+position: absolute;
+text-align: right;
+right: 0;
+top: 0;
+-webkit-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+        transform: translateY(200px);
+}

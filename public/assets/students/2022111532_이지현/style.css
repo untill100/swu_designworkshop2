@@ -1,0 +1,884 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&display=swap');
+
+body, html {
+  min-height: 1100vh;
+  background: black; 
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'Noto Serif KR', serif;
+  cursor: url("./cursor.cur"), auto;
+}
+
+
+.txt1 { /*이 결단 ~*/
+    font-size: 50px;
+}
+
+.txt2 { /*망설이고 괴로워했던가*/
+  font-size: 90px;
+  -webkit-animation: typing 1s;
+          animation: typing 1s;
+  opacity: 0;
+  -webkit-animation: fadeInText 5s 1.5s ease-out forwards;
+          animation: fadeInText 5s 1.5s ease-out forwards;
+}
+
+@-webkit-keyframes fadeInText {
+  0% {
+      opacity: 0.1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInText {
+  0% {
+      opacity: 0.1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+a {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+
+body{-ms-overflow-style:none; } /*스크롤바 숨기기*/
+body::-webkit-scrollbar { display:none; scroll-behavior: smooth; }
+
+
+
+.section {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+#section4 { /*나는 돌아가야 한다 ~ 섹션*/
+  padding: 200px;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+}
+
+#section5 { /*불쌍한 내 형제의 ~ 섹션*/
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  height: 100vh;
+  margin: auto;
+}
+
+#section6 { /*나를 버리고 섹션*/
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+#section7 { /*죽이고 가마 섹션*/
+  background-color:#f20;
+  padding: 50px;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+  height: 100vh;
+}
+
+#section8 { /*조금만 참고 견디어라 섹션*/
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+#section9 { /*너희들의 곁을 떠나지 않기 위해 ~ 섹션*/
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+#section10 { /*마지막 ...섹션*/
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  height: 100vh;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+#section11 { /*불쌍한 내 형제의 ~ 섹션*/
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  height: 100vh;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+#section12 { /*불쌍한 내 형제의 ~ 섹션*/
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  height: 100vh;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+#section13 { /*불쌍한 내 형제의 ~ 섹션*/
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  height: 100vh;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+
+#section14 { /*마지막 문*/
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  height: 100vh;
+  margin: auto;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+
+h1{  /*나는 돌아가야 한다~ 텍스트*/
+  font-size: 45px;
+  font-weight: 600;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+h1:hover{
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+
+h2{ /*불쌍한 내 형제의 ~ 텍스트*/
+  font-size: 30px;
+  font-weight: 600;
+  text-align:center;
+}
+
+.my_text{
+  font-size: 30px;
+  font-weight: 600;
+  text-align:center;
+}
+
+.my_text2{ /*나약한 생명체들*/
+  font-size: 30px;
+  color: #9d9d9d;
+  text-shadow: 0px 0px 5px #9d9d9d;
+  font-weight: 600;
+  text-align:center;
+  -webkit-animation: vibration 0.1s infinite;
+          animation: vibration 0.1s infinite;
+}
+
+@-webkit-keyframes vibration {
+  from {
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  to {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+
+@keyframes vibration {
+  from {
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  to {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+
+.my_img{ /*전태일 열사 사진1*/
+  display: none;
+  position: relative;
+  top: -200px;
+  left: 647px;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+.my_box:hover .my_img {
+  display: block;
+}
+
+.my_img2{ /*여공들 사진2*/
+  display: none;
+  position: relative;
+  top: 50px;
+  left: 635px;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+.my_box:hover .my_img2 {
+  display: block;
+}
+
+.my_img3{ /*나약한 생명체1*/
+  display: none;
+  position: relative;
+  top: -150px;
+  left: 1100px;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+.my_box:hover .my_img3 {
+  display: block;
+}
+@-webkit-keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.my_img5{ /*나약한 생명체2*/
+  display: none;
+  position: relative;
+  top: -300px;
+  left: 200px;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+.my_box:hover .my_img5 {
+  display: block;
+}
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
+
+h3 { /*나를 버리고 */
+  font-size: 50px;
+  text-align:center;
+  color: black;
+  line-height: 150px;
+  text-shadow : 5px 5px 5px #9d9d9d;
+}
+
+c { /*참고*/
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(255,255,255);
+  position: relative;
+  left: 200px;
+  letter-spacing: 50px;
+}
+
+cc { /*견디어라*/
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(255,255,255);
+  position: relative;
+  left: 400px;
+  letter-spacing: 105px;
+}
+
+h4 { /*조금만*/
+  font-size: 50px;
+  font-weight: 600;
+  position: relative;
+  top: 200px;
+  left: 120px;
+  color: rgb(255,255,255);
+  line-height: 150px;
+  letter-spacing: 10px;
+}
+
+h4:hover {
+  text-shadow: 0 0 4px #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -19px 18px #f20;
+}
+
+
+h5{ /*너희들의 곁을 떠나지 않기 위하여~*/
+  font-size: 40px;
+  text-align:center;
+  color: black;
+  line-height: 80px;
+}
+
+.my_text1{
+  font-size: 40px;
+  text-align:center;
+  color: black;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.my_img4{
+  display: none;
+  position: relative;
+  top: 200px;
+  left: 560px;
+  -webkit-animation: fadein1 3s;
+          animation: fadein1 3s;
+}
+
+.my_box:hover .my_img4 {
+  display: block;
+}
+@-webkit-keyframes fadein1 {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 0.5;
+  }
+}
+@keyframes fadein1 {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 0.5;
+  }
+}
+
+ul li {
+	list-style: none;
+  position: relative;
+  left: 700px;
+	color: rgb(255, 255, 255);
+	font-size: 110px;
+	letter-spacing: 100px;
+	-webkit-filter: blur(1px);
+	        filter: blur(1px);
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: upright; /* 텍스트를 뒤집지 않고 표시합니다. */
+  -webkit-animation: typing 12s steps(400);
+          animation: typing 12s steps(400);
+}
+ul:hover li {
+	-webkit-animation: animate 2s linear infinite;
+	        animation: animate 2s linear infinite;
+}
+
+
+@-webkit-keyframes animate {
+	0% {
+		-webkit-transform: rotate(0deg) translateY(0);
+		        transform: rotate(0deg) translateY(0);
+		opacity: 1;
+		-webkit-filter: blur(1px);
+		        filter: blur(1px);
+	}
+	
+	100% {
+		-webkit-transform: rotate(45deg) translateY(-250px);
+		        transform: rotate(45deg) translateY(-250px);
+		opacity: 0;
+		-webkit-filter: blur(20px);
+		        filter: blur(20px);
+	}
+	
+}
+
+
+@keyframes animate {
+	0% {
+		-webkit-transform: rotate(0deg) translateY(0);
+		        transform: rotate(0deg) translateY(0);
+		opacity: 1;
+		-webkit-filter: blur(1px);
+		        filter: blur(1px);
+	}
+	
+	100% {
+		-webkit-transform: rotate(45deg) translateY(-250px);
+		        transform: rotate(45deg) translateY(-250px);
+		opacity: 0;
+		-webkit-filter: blur(20px);
+		        filter: blur(20px);
+	}
+	
+}
+ul li:nth-child(1) { -webkit-animation-delay: 0s; animation-delay: 0s; }
+ul li:nth-child(2) { -webkit-animation-delay: 0.4s; animation-delay: 0.4s; }
+ul li:nth-child(3) { -webkit-animation-delay: 0.8s; animation-delay: 0.8s; }
+ul li:nth-child(4) { -webkit-animation-delay: 1.2s; animation-delay: 1.2s; }
+ul li:nth-child(5) { -webkit-animation-delay: 1.6s; animation-delay: 1.6s; }
+ul li:nth-child(6) { -webkit-animation-delay: 2.0s; animation-delay: 2.0s; }
+
+#ball1{
+  position: relative;
+  top: -50px;
+  left: 100px;
+  background-color: rgb(255, 79, 35, 50);
+
+  width:50px;
+  height: 50px;
+  border-radius: 100%;
+
+  -webkit-animation-name: bounce1;
+
+          animation-name: bounce1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#ball2{
+  position: relative;
+  top: -50px;
+  left: 400px;
+  background-color: rgb(255, 79, 35, 50);
+
+  width:150px;
+  height: 150px;
+  border-radius: 100%;
+
+  -webkit-animation-name: bounce2;
+
+          animation-name: bounce2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#ball3{
+  position: relative;
+  top: -50px;
+  left: 600px;
+  background-color: rgb(255, 79, 35, 50);
+
+  width:250px;
+  height: 250px;
+  border-radius: 100%;
+
+  -webkit-animation-name: bounce3;
+
+          animation-name: bounce3;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#ball4{
+  position: relative;
+  top: -50px;
+  left: 1000px;
+  background-color: rgb(255, 79, 35, 50);
+
+  width:80px;
+  height: 80px;
+  border-radius: 100%;
+
+  -webkit-animation-name: bounce4;
+
+          animation-name: bounce4;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#ball5{
+  position: relative;
+  top: -50px;
+  left: 1400px;
+  background-color: rgb(255, 79, 35, 80);
+
+  width:500px;
+  height: 500px;
+  border-radius: 100%;
+
+  -webkit-animation-name: bounce5;
+
+          animation-name: bounce5;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bounce1{
+  0%, 100%{
+    top: -350px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 200px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@keyframes bounce1{
+  0%, 100%{
+    top: -350px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 200px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bounce2{
+  0%, 100%{
+    top: -400px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 50px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@keyframes bounce2{
+  0%, 100%{
+    top: -400px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 50px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bounce3{
+  0%, 100%{
+    top: -550px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 150px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@keyframes bounce3{
+  0%, 100%{
+    top: -550px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 150px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bounce4{
+  0%, 100%{
+    top: -850px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 150px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@keyframes bounce4{
+  0%, 100%{
+    top: -850px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 150px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bounce5{
+  0%, 100%{
+    top: -900px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 150px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+@keyframes bounce5{
+  0%, 100%{
+    top: -900px;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0;
+  }
+
+  50%{
+    top: 150px;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
+
+
+.section {
+  position: relative;
+}
+
+.section--header {
+  font-size: calc(var(--fontsize-text));
+  font-family: var(--font-text);
+  color: black;
+  left: 0;
+  z-index: 1000;
+  opacity: 0;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.active .section--header {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInUp { /*나를 죽이고 가마 트랜지션*/
+  0% {
+    -webkit-transform: translate3d(0, -250%, 0);
+            transform: translate3d(0, -250%, 0);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 50%, 0);
+            transform: translate3d(0, 50%, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    -webkit-transform: translate3d(0, -250%, 0);
+            transform: translate3d(0, -250%, 0);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 50%, 0);
+            transform: translate3d(0, 50%, 0);
+  }
+}
+
+particle {
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+}
+
+button {
+  position: relative;
+  top: 300px;
+  left: 700px;
+  color: black;
+  font-family: 'Noto Serif KR', serif;
+}
+
+.standard {
+  width: 200px;
+  height: 300px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 300px;
+  border: 1px solid;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: perspective(1500px);
+          transform: perspective(1500px);
+}
+.door {
+  width: 200px;
+  height: 300px;
+  border: 1px solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: right;
+      -ms-transform-origin: right;
+          transform-origin: right;
+  -webkit-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+.door::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+.standard:hover .door{
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+
+.mask {
+  color: rgb(0, 0, 0);
+}
+
+.scrollDist{
+  width:100%;
+  height:200%;
+  position:absolute;
+}
+
+.scroll {
+  display: none;
+}
+
+svg {
+  position:fixed;
+}

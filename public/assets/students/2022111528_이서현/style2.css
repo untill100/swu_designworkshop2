@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* 화면 전환 저거 하면 왜 input range가 안되는지 
+또 위치 변화 관련 질문*/
+
+
+.notosanskr * { 
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+  }
+
+html, body {
+    font-size: 1.2vw;
+    /* height: 60%; */
+    overflow:hidden;
+  }
+
+#text2{
+    position: absolute;
+    white-space : nowrap;
+    /* top: calc(100vh - 95vh);
+    left: calc(100vw - 98vw); */
+  }
+
+  .text201{
+    /* 이 희미함은 */
+    position: absolute;
+    top: calc(100vh - 92vh);
+    left: calc(100vw - 93vw);
+  }
+
+.text202{
+    /* 우리와 상호작용하는 */
+    position: absolute;
+    top: calc(100vh - 81vh);
+    left: calc(100vw - 93vw);
+}
+
+.text203{
+    /* 우주의 동역학 */
+    position: relative;
+    white-space : nowrap;
+    font-size: 10.5vw;
+    font-weight: 900;
+    color: white;
+    top: calc(100vh - 82vh);
+    left: calc(100vw - 93vw);
+    -webkit-text-stroke: 1px blue;
+}
+
+.text203 span{
+    /* 이 */
+    position: absolute;
+    -webkit-transform: translate(0%,-100%);
+        -ms-transform: translate(0%,-100%);
+            transform: translate(0%,-100%);
+    font-size: 1.2vw;
+    top: calc(100vh - 72vh);
+    color: black;
+    -webkit-text-stroke: 0px blue;
+}
+
+.text204{
+    /* 희미함의 양을 측정하는 */
+    position: absolute;
+    top: calc(100vh - 46vh);
+    left: calc(100vw - 93vw);
+}
+
+.text205{
+    /* 엔트로피 */
+    position: absolute;
+    top: calc(100vh - 46vh);
+    left: calc(100vw - 93vw);
+    white-space : nowrap;
+    color: #E885AA;
+    font-size: 7.9vw;
+    font-weight: 900;
+}
+
+.text206{
+    /* 에 의해~ */
+    position: absolute;
+    -webkit-transform: translate(-100%,-100%);
+        -ms-transform: translate(-100%,-100%);
+            transform: translate(-100%,-100%);
+    top: calc(100vh - 11vh);
+    left: calc(100vw - 5vw);
+    white-space : nowrap;
+}
+
+.line1{
+  font-size: 1.2vw;
+    position: absolute;
+    white-space : pre;
+    color: white ;
+    border-bottom: 0.3vh solid black;
+    border-left: 0.3vh solid black;
+    border-top: 0.3vh solid white;
+    border-right: 0.3vh solid white;
+    -webkit-transform: translate(-100%,0%);
+        -ms-transform: translate(-100%,0%);
+            transform: translate(-100%,0%);
+    top: calc(100vh - 92vh);
+    left: calc(100vw - 5vw);
+}
+
+.line2{
+    position: absolute;
+    width: 18vw;
+    height: 0.3vh;
+    background-color: rgb(0,0,0);
+    top: calc(100vh - 10vh);
+    left: calc(100vw - 93vw);
+}
+
+
+/* -- */
+
+
+#entrop{
+    position: relative;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    top: calc(100vh - 90vh);
+    left: calc(100vw - 95vw);
+}
+
+datalist {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    width: 42vw;
+  }
+  
+  option {
+    position: relative;
+    padding: 0;
+    font-size: 0.5vw;
+    top: 67.6vh;
+    left: 42vw;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin: 0;
+  }
+
+   /* -- */
+
+  #cont_button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack:right;
+        -ms-flex-pack:right;
+            justify-content:right;
+    font-weight: 700;
+    font-size: 0.85vw;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.button {
+    width: 5.4vw;
+    height: 5.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    pointer-events: fill;
+}
+
+.button:hover {
+    -webkit-box-shadow: -0.5px -0.5px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: -0.5px -0.5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+}
+
+#cont_button.a{
+  display: none;
+}
+
+#button_2 {
+    background-color:#091945;
+}
+
+/* -- */
+
+#cont_full {
+  position: fixed;
+}
+
+.full {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+#full_2 {
+  right: -100%;
+  background-color: #091945;
+}
+
+#full_2.active {
+  right: 0;
+}
+
+/* -- */
+
+#text3{
+  position: absolute;
+  white-space : pre;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  text-shadow: 0 0 2px rgb(0,0,0,0.2);
+}
+
+.text301{
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 900;
+  font-size: 23vw;
+  -webkit-transform: translate(-100%,-50%);
+      -ms-transform: translate(-100%,-50%);
+          transform: translate(-100%,-50%);
+  top: calc(100vh - 85vh);
+  left:calc(100vw - 86vw);
+  color: #E885AA;
+  pointer-events: none;
+}
+
+.text302{
+  position: absolute;
+  font-weight: 400;
+  font-size: 1.6vw;
+  -webkit-transform: translate(0%,-50%);
+      -ms-transform: translate(0%,-50%);
+          transform: translate(0%,-50%);
+  top: calc(100vh - 70vh);
+  left:calc(100vw - 51.5vw);
+  color: white;
+}
+
+.text302 span{
+  color: #3E5AFF;
+}
+
+.text301>a{
+  pointer-events: fill;
+  position: absolute;
+  font-weight: 900;
+  color: #E885AA;
+  -webkit-box-pack : center;
+      -ms-flex-pack : center;
+          justify-content : center;
+  text-decoration: none;
+}
+
+.text3011{
+  position: absolute;
+  font-weight: 900;
+  font-size: 2.3vw;
+  -webkit-transform: translate(-100%,-50%);
+      -ms-transform: translate(-100%,-50%);
+          transform: translate(-100%,-50%);
+  top: calc(100vh - 56.9vh);
+  left:calc(100vw - 80vw);
+  color:#091945;
+}
+
+/* -- */
+
+ul{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  float: left;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+  pointer-events: none;
+}
+
+ul li{
+  display: inline-block; 
+  list-style: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  pointer-events: fill;
+  -webkit-animation: rotate 8s infinite linear;
+          animation: rotate 8s infinite linear;
+}
+
+/* ul:hover li {
+  animation: rotate 5s infinite linear;
+} */
+
+@-webkit-keyframes rotate{
+  0%,100%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50%{
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotate{
+  0%,100%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50%{
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
